@@ -27,6 +27,7 @@ import validator from "email-validator";
 
 
 
+
 const width = window.innerWidth
 const height = window.innerHeight
 //var validator = require("email-validator");
@@ -118,7 +119,7 @@ class Landing extends Component {
   handleSubmit = () => {
     //检查是否选选项
     if (this.state.selectedOption2 === null || this.state.selectedOption3 === null){
-      this.setState({error_message:'please select all fields'})
+        this.setState({error_message:'Please select all fields'})
     }
     else {
       console.log('start to landing button')
@@ -273,7 +274,7 @@ class Landing extends Component {
                       value={selectedOption2}
                       onChange={(selected)=>this.handleChange3(selected, 2)}
                       options={options2}/>
-                  </Grid.Column>
+                  </Grid.Column> 
                   <Grid.Column width={6}>
                     <Select
                       placeholder="Trendy style"
@@ -292,7 +293,7 @@ class Landing extends Component {
                   <div style={{color:'white', fontWeight:'bold'}}>
                     {
                       this.state.error_message?
-                      this.state.error_message:
+                      <p>{this.state.error_message}</p>:
                       null
                     }
                     <br/>
@@ -418,6 +419,11 @@ class Landing extends Component {
                   <Grid.Column width={2}/>
                 </Grid>
                 <div style={{marginTop:'20px'}}>
+                  {
+                    this.state.error_message?
+                    <p>{this.state.error_message}</p>:
+                    null
+                  }
                   <button
                         style={{
                           borderRadius: "5px",

@@ -4,7 +4,7 @@ import axios from "axios";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faRibbon, faSearch, faCheck } from '@fortawesome/free-solid-svg-icons';
 import { Element } from 'react-scroll';
-import SigninContext from '../context/SigninContext';
+import SigninContext from '../context/SigninContext'; 
 import { TimestreamQuery } from "aws-sdk";
 import Result_signup_premium from './Result_signup_premium';
 import Result_signup_free from './Result_signup_free';
@@ -263,7 +263,7 @@ class Recovery extends Component {
       <Grid>
         <Grid.Column width={3}>
           <div className="center-align">
-            <p>🔥 Selected trendy styles</p>
+            <p className="navheading">🔥 Selected trendy styles</p>
           </div>
           <Step.Group vertical>
             {step_navigation}
@@ -271,7 +271,7 @@ class Recovery extends Component {
         </Grid.Column>
         <Grid.Column width={13}>
           <div className="center-align">
-            <p>Product listings from source manufacturers</p>
+            <p className="navheading">Product listings from source manufacturers</p>
           </div>
           <Grid>
             {manufacturer_listings}
@@ -285,12 +285,12 @@ class Recovery extends Component {
             <Grid.Column width={10}>
             <div className="center-align">
             <Segment>
-                <h3 className="navheading" style={{color:'#B0283E'}}>Receive full product info within 24 hours</h3>
+                <h3 className="navheading" style={{color:'#fa856d'}}>Receive full product info within 24 hours</h3>
                 <p>If you'd like to learn more about any of the products or buy a sample from the source manufacturers, simply check 
                   "Request full product info", tell us your brand name and email address, and click "Submit"! We will get back to you with 
                   full product info with a sample purchaseable link in 24 hours.
                 </p>
-                <h3 className="navheading" style={{color:'#B0283E'}}>Want to find the manufacture source of your own styles?</h3>
+                <h3 className="navheading" style={{color:'#fa856d'}}>Want to find the manufacture source of your own styles?</h3>
                 <p>We provide a tool to automatically search for the source manufacturers for your own uploaded styles! <br/>The tool is here.</p>
             </Segment>
             {
@@ -326,8 +326,8 @@ class Recovery extends Component {
                   letterSpacing: "1.5px",
                   marginTop: "1rem",
                   fontWeight:'bold',
-                  backgroundColor:'#f8e1fb',
-                  color:'#B0283E',
+                  backgroundColor:'#533eb5',
+                  color:'white',
                   height: '50px',
                   paddingLeft:'16px',
                   paddingRight:'16px',
@@ -353,16 +353,19 @@ class Recovery extends Component {
       </div>
       <div className="mobile-only">
       <div className="container">  
+      {this.state.menu?null:
+      <p className="navheading">Select a target style</p>}
       <Button
           style={{backgroundColor:'transparent'}}
           onClick={()=>this.setState({menu: !this.state.menu})}
         >
           <i class="bars icon" style={{fontSize:25, color:'#1b1b1c'}}/> 
         </Button>
+        
       {this.state.menu?
       <>
       <div className="center-align navheading">
-        <p>Select styles</p>
+        <p>Select a target style</p>
       </div>
       <Grid>
         <Grid.Column width={4}/>
@@ -376,7 +379,7 @@ class Recovery extends Component {
     :
     <> 
       <div className="center-align navheading">
-        <p>Original picture</p>
+        <p>Target style</p>
       
     <Image 
         src={'https://1688imgsearch.s3.amazonaws.com/style_recommendation/'+this.state.selected_styles[this.state.current_style-1]+'.png'} 
@@ -389,7 +392,7 @@ class Recovery extends Component {
       }
 
           <div className="center-align navheading" style={{marginTop:30, width:'70%', marginLeft:'15%'}}>
-            <p>Product listings from source manufacturers</p>
+            <p className="navheading">Product listings from source manufacturers</p>
             {manufacturer_listings}
           </div>     
 
@@ -398,13 +401,13 @@ class Recovery extends Component {
             <Grid.Column width={14}>
             <div className="center-align">
             <Segment>
-                <h3 className="navheading" style={{color:'#B0283E'}}>Receive full product info within 24 hours</h3>
-                <p>If you'd like to learn more about any of the products or buy a sample from the source manufacturers, simply check 
+                <h3 className="navheading" style={{color:'#fa856d'}}>Receive full product info within 24 hours</h3>
+                <p>If you'd like to learn more about any of the products or even buy a sample from the source manufacturers, simply check 
                   "Request full product info", tell us your brand name and email address, and click "Submit"! We will get back to you with 
-                  full product info with a sample purchaseable link in 24 hours.
+                  full product info in 24 hours.
                 </p>
-                <h3 className="navheading" style={{color:'#B0283E'}}>Want to find the manufacture source of your own styles?</h3>
-                <p>We provide a tool to automatically search for the source manufacturers for your own uploaded styles! <br/>The tool is here.</p>
+                <h3 className="navheading" style={{color:'#fa856d'}}>Want to find the manufacture source of your own styles?</h3>
+                <p>We provide a tool to automatically search for the source manufacturers for your own uploaded styles! <br/><a href="https://www.vicgarments.com/">The tool is here.</a></p>
             </Segment>
             {
               this.state.submitted?
@@ -441,8 +444,8 @@ class Recovery extends Component {
                   letterSpacing: "1.5px",
                   marginTop: "1rem",
                   fontWeight:'bold',
-                  backgroundColor:'#f8e1fb',
-                  color:'#B0283E',
+                  backgroundColor:'#533eb5',
+                  color:'white',
                   height: '50px',
                   paddingLeft:'16px',
                   paddingRight:'16px',

@@ -336,8 +336,8 @@ class Term extends Component {
                   <Grid.Column width={14}>
                       <div className="center-align">
                           <Segment>
-                          <h3 className="navheading" style={{color:'#B0283E'}}>Check the manufacturer source of the trendy styles!</h3>
-                          <p>Select the trendy styles you like by clicking "love the style!" and proceed to find out their manufacturer source and pricing. You could even place a sample order directly with the manufacturers!</p>
+                          <h3 className="navheading" style={{color:'#fa856d'}}>Check where and how much you can source them!</h3>
+                          <p style={{color:'#1b1b1c'}}>Select the trendy styles you like by clicking "love the style!" and proceed to find out their manufacturer source and pricing. You could even place a sample order directly with the manufacturers!</p>
                           </Segment>
                           {
                               error?
@@ -351,8 +351,8 @@ class Term extends Component {
                               letterSpacing: "1.5px",
                               //marginTop: "1rem",
                               fontWeight:'bold',
-                              backgroundColor:'#f8e1fb',
-                              color:'#B0283E',
+                              backgroundColor:'#533eb5',
+                              color:'white',
                               height: '50px',
                               paddingLeft:'16px',
                               paddingRight:'16px',
@@ -368,6 +368,9 @@ class Term extends Component {
                   </Grid.Column>
                   <Grid.Column width={1}/>
               </Grid>
+              <div style={{height:200}}>
+
+              </div>
         </div>
         </div>
         </>
