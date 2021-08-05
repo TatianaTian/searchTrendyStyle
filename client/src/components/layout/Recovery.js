@@ -190,7 +190,7 @@ class Recovery extends Component {
       const j = i+1
       if (j === this.state.current_style){
         return <>
-        <a href={"http://localhost:3000/manufacturerlisting?style="+j}>
+        <a href={"https://trendy-suggest-landing.herokuapp.com/manufacturerlisting?style="+j}>
         <Step active>
           <Step.Content>
             <Image 
@@ -205,7 +205,7 @@ class Recovery extends Component {
       </>
       } else {
         return <>
-        <a href={"http://localhost:3000/manufacturerlisting?style="+j}>
+        <a href={"https://trendy-suggest-landing.herokuapp.com/manufacturerlisting?style="+j}>
         <Step>
           <Step.Content>
             <Image 
