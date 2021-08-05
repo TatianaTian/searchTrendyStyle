@@ -10,8 +10,7 @@ import { GET_ERRORS, SET_CURRENT_USER, USER_LOADING } from "./types";
 
 // function to handle stripe payment
 const handleClick = async (id) => {
-  //const stripePromise = loadStripe("pk_test_51HeAu7EMg9ur2p3ywJ0E2bYiCR7phpWP0wZzvl7XPDspHGpMsoEXwY00aYEwjxIy");
-  const stripePromise = loadStripe("pk_lzl8xyHyhayoBbU8BF0ilo33MLX00q8vfcxwq");
+  const stripePromise = loadStripe("pk_live_51HeAu7U8BF0ilo33MLX00q8vfcxwq");
   
   const stripe = await stripePromise;
 

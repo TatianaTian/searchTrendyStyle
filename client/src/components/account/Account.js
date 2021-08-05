@@ -91,8 +91,7 @@ class Account extends Component {
 
     // function to handle stripe payment
     handleClick = async (event) => {
-
-      const stripePromise = loadStripe("pk_live_51HeAu7EMg9ur2p3yIZ0qQ3tJecu5WUZR9FE43MLX00q8vfcxwq");
+      const stripePromise = loadStripe("pk_live_51HeAu7EMgMLX00q8vfcxwq");
       const stripe = await stripePromise;
   
       axios
