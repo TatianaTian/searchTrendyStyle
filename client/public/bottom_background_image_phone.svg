@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="483px" viewBox="0 0 360 483" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 122</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.336,0 L1.33601666,13.2229173 C64.2831367,42.5331621 145.711173,57.1882845 245.620125,57.1882845 C345.529077,57.1882845 425.389035,42.5331621 485.2,13.2229173 L485.193,13.225 L485,478 L0.8,478 L1,0 L1.336,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Phone" transform="translate(0.000000, -3212.000000)">
+            <g id="Group-86" transform="translate(-123.000000, 19.000000)">
+                <g id="Group-122" transform="translate(0.000000, 3139.000000)">
+                    <path d="M0,21.3783784 C79.1697531,57.3483483 202.807099,79.3441358 370.912037,87.3657407 C539.016975,95.3873457 679.046296,66.2654321 791,1.42108547e-14 L791,93.1203704 L131.310185,117.185185 L12.6326781,93.2874693 L0,21.3783784 Z" id="Path-63" fill="#E9F6FB" transform="translate(395.500000, 58.592593) scale(-1, 1) translate(-395.500000, -58.592593) "></path>
+                    <g id="Group-83" transform="translate(71.000000, 59.000000)">
+                        <g id="Group-85">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#A0DBF3" xlink:href="#path-1"></use>
+                            <path d="M-99.2,341.773558 C-81.1574609,403.860409 -16.2386761,436.743572 95.5563546,440.423046 C263.248901,445.942258 260.143463,525.278381 355.389833,570.128854 C418.887412,600.029169 522.757468,590.590484 667,541.812797" id="Path" stroke="#421B9B" stroke-width="0.54" opacity="0.940917969" mask="url(#mask-2)" transform="translate(283.900000, 464.473558) rotate(-7.000000) translate(-283.900000, -464.473558) "></path>
+                            <path d="M218,55.9057695 C247.758647,81.5208071 281.378383,91.7856568 318.859211,86.7003184 C375.080451,79.0723109 410.395301,35.5644162 518.6,38.1070853" id="Path-67" stroke="#421B9B" stroke-width="0.54" opacity="0.940917969" mask="url(#mask-2)"></path>
+                            <path d="M240,48.1088546 C331.383266,95.520065 411.589277,117.383266 480.618034,113.698457 C549.646791,110.013647 620.64078,80.7808286 693.6,26" id="Path-66" stroke="#FFFFFF" stroke-width="0.54" mask="url(#mask-2)"></path>
+                            <path d="M-100.510008,506.517204 C-52.6413264,433.618881 2.46850752,404.836822 64.8194937,420.171027 C158.345973,443.172334 139.117367,514.549406 270.310008,520.573558" id="Path-5" stroke="#FFFFFF" stroke-width="0.54" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

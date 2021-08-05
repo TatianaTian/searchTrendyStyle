@@ -1,0 +1,1512 @@
+{
+    "All_graphs": {
+        "Page_length":{
+            "Labels": ["4","5","6","7","8","9","10","11","12","13","14","15","17","18","20","21","22","23","24"],
+            "Data":[11,17,19,21,21,10,15,4,2,2,1,1,1,1,1,1,1,1,1],
+            "Background_color":["#ffa41b", "#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 3,
+            "Max": 10
+        },
+        "Image_number":{
+            "Labels": ["4","5","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","23","24","26","27","28","29","30","32","34","41"],
+            "Data":[3,2,7,7,7,12,14,6,7,9,4,3,7,8,10,3,7,1,2,1,1,2,2,1,1,2,2],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 7,
+            "Max": 21
+        }, 
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+","500+","600+"],
+            "Data":[30,46,26,13,7,3,6],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"], 
+            "Min": 0,
+            "Max": 400
+        },  
+        "Font_count":{
+            "Labels": ["2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","19","22","23","48"],
+            "Data":[2,14,14,16,16,12,12,13,4,3,3,6,2,2,3,4,1,1,2,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 3,
+            "Max": 9
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+","200+","300+"],
+            "Data":[123,6,1,1],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,20,60,41,9],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "Max": 10
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)", "4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[22,143,473,752,553,148,11],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 10
+        },
+        "Image_technical":{
+            "Labels": ["2 (poor)","3 (poor)","3.5 (poor)","4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)","7 (excellent)"],
+            "Data":[1,3,18,112,418,673,515,270,88,4],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 10
+        },
+        "Image_effectiveness":{
+            "Labels": ["50%","55%","60%","65%","70%","75%","80%","85%","90%","95%","100%"],
+            "Data":[1, 1, 1,6,2,9,9,18,27,20,37],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0.75,
+            "Max": 1
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[124,7],
+            "Background_color":["#ffa41b"]
+        },
+        "Text_effectiveness_first":{
+            "Min": "0.9",
+            "AS_below_min": "We extracted keywords from your fir st screen page, and below are the keywords that you labeled not related to your products/store. It indicates that you are not using the most effective sentence structure and wordings, so we recommend that you tweak them a bit to increase the text effectiveness. If you need help in specific strategies in improving your text effectiveness, contact us at hello@haloy.co and we will get in touch with you!",
+            "AS_in_range": "You got this! We love how effective your words are at the first impression."
+        },
+        "Text_effectiveness":{
+            "Min": "0.9",
+            "AS_below_min": "We drew out keywords from your homepage texts, and below are the keywords that you labeled not related to your products/store. It indicates that you are not using the most effective sentence structure and wordings, so we recommend that you tweak them a bit to increase the text effectiveness. If you need help in specific strategies in improving your text effectiveness, contact us at hello@haloy.co and we will get in touch with you!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your texts."
+        },
+        "Home_section":{
+            "Map":{
+                "1": "Value proposition",
+                "2": "Sale section",
+                "3": "Product features, uniqueness or advantages",
+                "4": "Social proof (reviews or testimonials)",
+                "5": "Best seller section",
+                "6": "Return policy"
+            },
+            "Min": 4,
+            "AS_below_min": "We noticed your homepage are missing some important sections. Below we recommend some content types for you to include, and encourage you to start incorporating them and see how they will make a difference to your conversion rates!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the homepage contents you show on your homepage!"
+        }
+    },
+    "Animals & Pet Supplies":{
+        "Page_length":{
+            "Labels": ["5","7","8","9","11","13","21"],
+            "Data":[3,3,2,1,2,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 8,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["8","10","11","16","17","21","26","28","29","32"],
+            "Data":[1,3,2,1,1,1,1,1,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 10,
+            "Max": 17,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+"],
+            "Data":[3,4,1,4,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 400,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["3","4","5","6","8","9","10","13","17","48"],
+            "Data":[1,1,2,1,2,2,1,1,1,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 9,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[12,1],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[1,5,7],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)","4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[3,17,45,83,68,24,2],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["3.5 (poor)","4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[1,15,52,100,63,11],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": ["50%","55%","60%","65%","70%","75%","80%","85%","90%","95%","100%"],
+            "Data":[1,1,0,2,0,3,0,3,1,0,1],
+            "Background_color":[],
+            "Min": 0.75,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[9,4],
+            "Ratio":69,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"easy, tender, daydreaming, feminine, youthful",
+            "style_2_name":"fresh, uplifted, sustainable, reliable, harmonious", 
+            "style_3_name":"optimistic, adventurous, passionate, energetic, free",
+            "style_1_color_code":["#FFA38B","#5D5D5D","#FFFFFF"],
+            "style_2_color_code":["#4B7C63","#E7CEB5","#EDEDED"],
+            "style_3_color_code":["#E25524","#358E7F","#A59483"],
+            "style_1_color_category":["Orange","Gray","White"],
+            "style_2_color_category":["Green","Yellow","White"],
+            "style_3_color_category":[ "Orange", "Green", "Gray"],
+            "style_1_example":"https://bestfriendsbysheri.com/",
+            "style_2_example":"https://wildone.com/",
+            "style_3_example":"https://www.petplay.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"          
+        }
+    }, 
+    "Apparel":{
+        "Page_length":{
+            "Labels": ["4","6","7","8","9","10"],
+            "Data":[1,2,2,2,1,2],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 6,
+            "Max": 10,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["10","11","12","14","15","21","24","29"],
+            "Data":[1,2,1,2,1,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 10,
+            "Max": 15,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+","500+"],
+            "Data":[1,4,1,2,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 100,
+            "Max": 400,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["2","3","4","5","6","7","14","17"],
+            "Data":[1,1,3,1,1,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 2,
+            "Max": 7,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+","200+"],
+            "Data":[8,1,1],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,2,5,2],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)","4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[4, 11, 28, 46, 56, 24, 2 ],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["3.5 (poor)","4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)","7 (excellent)"],
+            "Data":[2,5, 16, 39, 35, 42, 28, 4],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[9,1],
+            "Ratio":90,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"calm, serene, natural, pure, graceful",
+            "style_2_name":"neutral, timeless, practical, innocent, authoritarian", 
+            "style_3_name":"optimistic, adventurous, passionate, energetic, free",
+            "style_1_color_code":["#6E6E77","#ECF3F8","#F3F3F3"],
+            "style_2_color_code":["#5C5C5C","#FFFFFF","#1C1B1B"],
+            "style_3_color_code":["#AB453B","#B8BC86","#000000"],
+            "style_1_color_category":["Gray","Blue","White"],
+            "style_2_color_category":[ "Gray", "White", "Black" ],
+            "style_3_color_category":[ "Brown", "Yellow", "Black" ],
+            "style_1_example":"https://negativeunderwear.com/",
+            "style_2_example":"https://tonle.com/",
+            "style_3_example":"https://www.livefashionable.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"        
+        }
+    },
+    "Furniture & Home & Arts":{
+        "Page_length":{
+            "Labels": ["6","7","8","10","12"],
+            "Data":[2,2,3,2,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#DEDEDE"],
+            "Min": 6,
+            "Max": 10,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["4","5","8","11","12","18","21","23","24","27"],
+            "Data":[1,1,1,1,1,1,1,1,1,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 8,
+            "Max": 18,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+"],
+            "Data":[3,4,0,2,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 400,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["4","5","6","7","9","15","17"],
+            "Data":[2,2,2,1,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 4,
+            "Max": 9,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[10,0],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[8,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)","4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,10,20,62,54,16,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["2 (poor)","3 (poor)", "3.5 (poor)","4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,2,3,7,43,54,38,14,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[10,0],
+            "Ratio":100,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"authoritarian, intelligent, timeless, practical, powerful",
+            "style_2_name":"easy, tender, daydreaming, feminine, youthful", 
+            "style_3_name":"fresh, uplifted, sustainable, reliable, harmonious",
+            "style_1_color_code":["#000000","#B8BC86","#B4B4B4"],
+            "style_2_color_code":["#F8DEC9","#CFCFCF","#FFFFFF"],
+            "style_3_color_code":["#007B5F","#00AB84","#F8F8F7"],
+            "style_1_color_category":[ "Black", "Yellow", "Gray" ],
+            "style_2_color_category":[ "Yellow", "Gray", "White" ],
+            "style_3_color_category":[ "Green", "White" ],
+            "style_1_example":"https://us.hem.com/",
+            "style_2_example":"https://www.leifshop.com/",
+            "style_3_example":"https://www.thesill.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"        
+        }
+    },
+    "Food & Beverages":{
+        "Page_length":{
+            "Labels": ["5","6","8","10"],
+            "Data":[4,3,1,2],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 10,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["7","10","11","12","15","19"],
+            "Data":[1,2,2,2,1,2],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 10,
+            "Max": 19,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+"],
+            "Data":[5,2,0,1,2],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 500,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["3","4","6","8","9","10","12","13","16"],
+            "Data":[1,1,1,1,2,1,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 3,
+            "Max": 9,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[9,1],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[2,6,2],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[4, 38, 58, 31, 4],
+            "Background_color":["#DEDEDE","#DEDEDE", "#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[11, 32, 60, 23, 10],
+            "Background_color":["#DEDEDE","#DEDEDE", "#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[10,0],
+            "Ratio":100,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"peaceful, loyal, simple, competent, fresh",
+            "style_2_name":"cute, lively, easy, tender, daydreaming", 
+            "style_3_name":"optimistic, adventurous, passionate, energetic, mixed",
+            "style_1_color_code":["#01A1DD","#E5E5E5","#FFFFFF"],
+            "style_2_color_code":["#B1D6BC","#FFCAAA","#DDDDDD"],
+            "style_3_color_code":["#E9B3B3","#E35737","#FBF1F0"],
+            "style_1_color_category":[ "Blue", "Gray", "White" ],
+            "style_2_color_category":[ "Green", "Pink", "Gray" ],
+            "style_3_color_category":[ "Pink", "Orange", "White" ],
+            "style_1_example":"https://bluebottlecoffee.com/",
+            "style_2_example":"https://www.aidaeats.com/",
+            "style_3_example":"https://bonbonbon.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"         
+        }
+    },
+    "Health & Beauty":{
+        "Page_length":{
+            "Labels": ["5","6","7","8","18"],
+            "Data":[2,1,3,3,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 8,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["7","9","10","12","13","16","19","20"],
+            "Data":[1,1,1,1,1,1,3,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 16,
+            "Max": 20,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+","500+","600+"],
+            "Data":[1,1,6,0,0,0,2],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 300,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["4","5","6","7","8","10","13","16"],
+            "Data":[2,1,1,1,2,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 4,
+            "Max": 8,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[9,1],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[4,4,2],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[9,40,56,42,7],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["3.5 (poor)","4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,4,27,58,34,19,11],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[10,0],
+            "Ratio":100,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"light-hearted, romantic, beautiful, tender, sensitive",
+            "style_2_name":"easy, tender, daydreaming, feminine, youthful", 
+            "style_3_name":"neutral, timeless, graceful, stable, confident",
+            "style_1_color_code":["#FBECE3","#2F442C","#000000"],
+            "style_2_color_code":["#FAC1BA","#FFDCD2","#BFBFBF"],
+            "style_3_color_code":["#DEB5AE","#DED6E0","#000000"],
+            "style_1_color_category":[ "White", "Green", "Black" ],
+            "style_2_color_category":[ "Pink", "Gray" ],
+            "style_3_color_category":[ "Brown", "Gray", "Black" ],
+            "style_1_example":"https://www.blume.com/",
+            "style_2_example":"https://www.frankbody.com/us/",
+            "style_3_example":"https://www.fentybeauty.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"         
+        }
+    }, 
+    "Electronics & Accessories":{
+        "Page_length":{
+            "Labels": ["4","5","6","7","8","9","13"],
+            "Data":[2,2,1,2,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 4,
+            "Max": 7,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["5","8","10","11","13","14","21"],
+            "Data":[1,1,2,2,2,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 8,
+            "Max": 14,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+","500+"],
+            "Data":[1,6,2,0,0,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 300,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["2","3","4","7","8","9","14","16"],
+            "Data":[1,1,2,1,1,2,1,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 4,
+            "Max": 9,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[10,0],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[2,6,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[11,29,48,29,8,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["4 (poor)","4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[7,29,46,22,13,9],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[8,2],
+            "Ratio":80,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"elegant, formal, authoritarian, mythical, premium",
+            "style_2_name":"trust-worthy, optimistic, energetic, free, mature", 
+            "style_3_name":"youthful, adventurous, passionate, energetic, creative",
+            "style_1_color_code":["#000000","#333333","#FFFFFF"],
+            "style_2_color_code":["#000000","#3860BE","#FFFFFF"],
+            "style_3_color_code":["#F44336","#000000","#FFFFFF"],
+            "style_1_color_category":[ "Black", "Green", "White" ],
+            "style_2_color_category":[ "Black", "Purple", "White" ],
+            "style_3_color_category":[ "Orange", "Black", "White" ],
+            "style_1_example":"https://www.marshallheadphones.com",
+            "style_2_example":"https://www.ultimateears.com",
+            "style_3_example":"https://www.jbl.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"          
+        }
+    },
+    "Office/School Supplies":{
+        "Page_length":{
+            "Labels": ["4","6","9","10","11","22"],
+            "Data":[3,2,1,2,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 4,
+            "Max": 10,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["4","7","8","9","11","12","14","18"],
+            "Data":[1,1,1,1,1,1,3,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 7,
+            "Max": 14,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+","500+"],
+            "Data":[3,4,2,0,0,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 300,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["3","5","6","8","9","11","12"],
+            "Data":[2,1,2,1,1,1,2],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 3,
+            "Max": 6,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[9,1],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[5,1,4],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5, 
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[4,9,25,57,24,2],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[11,38,37,29,5,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[10,0],
+            "Ratio":100,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"easy, tender, daydreaming, feminine, youthful",
+            "style_2_name":"trust-worthy, elegant, studious,premium, mature", 
+            "style_3_name":"neutral, timeless, graceful, stable, soft",
+            "style_1_color_code":["#FCEDE3","#F1EFEF","#000000"],
+            "style_2_color_code":["#E0DDD7","#034752","#E4E4E4"],
+            "style_3_color_code":["#A2A2A2","#FFFDF7","#FFFFFF"],
+            "style_1_color_category":[ "White", "Black" ],
+            "style_2_color_category":[ "Gray", "Green" ],
+            "style_3_color_category":[ "Gray", "White" ],
+            "style_1_example":"https://sugarpaper.com/",
+            "style_2_example":"https://www.studioneat.com/",
+            "style_3_example":"https://us.moleskine.com",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"          
+        }
+    },
+    "Sporting Goods":{
+        "Page_length":{
+            "Labels": ["4","5","6","7","9","10","12"],
+            "Data":[3,1,1,2,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 4,
+            "Max": 7,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["8","9","10","11","13","14","16","30","34"],
+            "Data":[1,2,1,1,1,1,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 8,
+            "Max": 16,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+"],
+            "Data":[3,4,3,0],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 300,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["5","6","7","9","15","19","23"],
+            "Data":[2,2,2,1,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 9,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[10,0],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,4,3,2],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[3,18,47,63,21,10,2],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[10,25,56,48,20,5],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[10,0],
+            "Ratio":100,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"elegant, formal, authoritarian, mythical, premium",
+            "style_2_name":"tender, daydreaming, soft, light-hearted, free", 
+            "style_3_name":"youthful, adventurous, passionate, energetic, creative",
+            "style_1_color_code":["#000000","#555555","#FAFAFA"],
+            "style_2_color_code":["#F8F1E1","#F2F2F2","#FFFFFF"],
+            "style_3_color_code":["#326295","#CCCCCC","#FFFFFF"],
+            "style_1_color_category":[ "Black", "Gray", "White" ],
+            "style_2_color_category":[ "White","Yellow","Gray" ],
+            "style_3_color_category":[ "Blue", "Gray", "White" ],
+            "style_1_example":"https://k2snow.com/",
+            "style_2_example":"https://iconsnowskates.com/",
+            "style_3_example":"https://tribesports.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"          
+        }
+    },
+    "Luggage & Bags":{
+        "Page_length":{
+            "Labels": ["4","5","7","8","9","17","23"],
+            "Data":[1,2,2,2,1,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 8,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["7","9","15","17","18","19","21","28"],
+            "Data":[1,1,2,2,1,1,1,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 15,
+            "Max": 21,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+"],
+            "Data":[2,5,2,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 300,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["5","6","8","9","17","23"],
+            "Data":[3,2,2,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 9,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[10,0],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["4.5 (poor)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,6,1,2],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[2,11,46,59,48,8,2],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,13,34,52,45,27,4],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[9,1],
+            "Ratio":90,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"tender, daydreaming, feminine, light-hearted, fashionable",
+            "style_2_name":"elegant, formal, authoritarian, mythical, premium", 
+            "style_3_name":"youthful, adventurous, passionate, energetic, creative",
+            "style_1_color_code":["#EBD9C8","#EFEFEF","#888888"],
+            "style_2_color_code":["#000000","#AAAAAA","#FFFFFF"],
+            "style_3_color_code":["#FFD60F","#F5F3EB","#DFE8ED"],
+            "style_1_color_category":[ "Brown","White", "Gray" ],
+            "style_2_color_category":[ "Black", "Gray", "White" ],
+            "style_3_color_category":[ "Yellow", "White", "Gray" ],
+            "style_1_example":"https://beistravel.com/",
+            "style_2_example":"https://www.rimowa.com/us/en/home",
+            "style_3_example":"https://tourparavel.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"         
+        }
+    },
+    "Baby & Toddler":{
+        "Page_length":{
+            "Labels": ["7","8","9","10"],
+            "Data":[1,2,4,3],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 8,
+            "Max": 10,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["7","8","10","11","13","14","17","18","19","20"],
+            "Data":[1,1,1,1,1,1,1,1,1,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 10,
+            "Max": 20,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+","500+","600+"],
+            "Data":[1,3,2,1,1,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b"],
+            "Min": 100,
+            "Max": 300,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["3","5","6","8","10","11","13","22"],
+            "Data":[1,1,1,2,1,1,2,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 3,
+            "Max": 8,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+","200+","300+"],
+            "Data":[8,1,0,1],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,5,3,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[2,10,29,53,46,6,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[3,7,26,31,35,33,12],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[10,0],
+            "Ratio":100,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"reliable, premium, traditional, comfortable, elegant",
+            "style_2_name":"youthful, soft, creative, joyful, free", 
+            "style_3_name":"tender, daydreaming, mixed, light-hearted, spontaneous",
+            "style_1_color_code":["#615D59","#FFF0C3","#B0AEAC"],
+            "style_2_color_code":["#94CCC9","#37817E","#DDDDDD"],
+            "style_3_color_code":["#FCF8E8","#B5C1DC","#616FA8"],
+            "style_1_color_category":[ "Gray", "Yellow" ],
+            "style_2_color_category":[ "Blue", "Green", "Gray" ],
+            "style_3_color_category":[ "White", "Gray", "Blue" ],
+            "style_1_example":"https://www.burtsbeesbaby.com/",
+            "style_2_example":"https://www.adenandanais.com/",
+            "style_3_example":"https://www.maisonette.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"           
+        }
+    },
+    "Toys & Games":{
+        "Page_length":{
+            "Labels": ["5","6","7","8","9","10","15","20"],
+            "Data":[1,2,2,1,1,2,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 6,
+            "Max": 10,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["7","8","9","13","17","19","21","41"],
+            "Data":[1,2,2,1,2,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 7,
+            "Max": 17,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+"],
+            "Data":[3,2,5,1,0],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 300,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["3","4","6","7","8","9","11","22"],
+            "Data":[2,1,1,2,2,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 3,
+            "Max": 8,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[10,0],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[2,4,4,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[2,12,46,57,46,16,1],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[2,5,28,53,54,31,7],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[10,0],
+            "Ratio":100,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"youthful, adventurous, energetic, creative, joyful",
+            "style_2_name":"tender, daydreaming, light-hearted, spontaneous, optimistic", 
+            "style_3_name":"Premium, passionate, courageous, energetic, delightful",
+            "style_1_color_code":["#7BE6CF","#001655","#E9E9E9"],
+            "style_2_color_code":["#4EDBC9","#29C95F","#FEFBEF"],
+            "style_3_color_code":["#FF0028","#EBEBEB","#FFFFFF"],
+            "style_1_color_category":[ "Green", "Blue", "Gray" ],
+            "style_2_color_category":[ "Green", "White" ],
+            "style_3_color_category":[ "Red", "White" ],
+            "style_1_example":"https://www.spinmaster.com/en-US/",
+            "style_2_example":"https://lovevery.com/",
+            "style_3_example":"https://www.mattel.com/en-us",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"           
+        }
+    },
+    "Shoes":{
+        "Page_length":{
+            "Labels": ["5","6","7","8","14"],
+            "Data":[2,5,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 6,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["7","10","11","13","18","19","21"],
+            "Data":[2,1,1,1,3,1,1],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 7,
+            "Max": 19,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+"],
+            "Data":[3,3,3,1,0],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 300,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["3","4","6","7"],
+            "Data":[4,2,2,2],
+            "Background_color":["#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 3,
+            "Max": 7,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[10,0],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[1,5,4],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[6,40,54,44,8],
+            "Background_color":["#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[3,8,33,45,38,22,3],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[10,0],
+            "Ratio":100,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"calm, natural, pure, comfortable, neutral",
+            "style_2_name":"reliable, premium, traditional, elegant, preppy", 
+            "style_3_name":"adventurous, energetic, creative, joyful, light-hearted",
+            "style_1_color_code":["#71777A","#D3D4D5","#4D5559"],
+            "style_2_color_code":["#032540","#F2F2F2","#FFFFFF"],
+            "style_3_color_code":["#092DC5","#FBF4ED","#FFFFFF"],
+            "style_1_color_category":["Gray","Black"],
+            "style_2_color_category":[ "Black", "White" ],
+            "style_3_color_category":[ "Blue", "White" ],
+            "style_1_example":"https://www.allbirds.com/",
+            "style_2_example":"https://wolfandshepherd.com/",
+            "style_3_example":"https://rothys.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"       
+        }
+    },
+    "Fashion Accessories":{
+        "Page_length":{
+            "Labels": ["4","7","8","10","11","24"],
+            "Data":[1,2,3,2,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 7,
+            "Max": 10,
+            "AS_below_min": "We noticed that your homepage is shorter than the average page length of the best performing sellers of your category. Consider adding more content - read more on the Content Type to get some inspiration!",
+            "AS_in_range": "You got this! Keep doing what you are doing with your page length.",
+            "AS_above_max": "We noticed that your homepage is longer than the average page length of the best performing sellers of your category. Consider shortening it - sometimes less is more! "
+        },
+        "Image_number":{
+            "Labels": ["4","11","13","14","17","18","19","20","34","41"],
+            "Data":[1,1,1,1,1,1,1,1,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 11,
+            "Max": 20,
+            "AS_below_min": "We noticed that your homepage has less images than the best performing sellers of your category. Consider adding more images to tell a better visual story!",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of images you show on your homepage!",
+            "AS_above_max": "We noticed that your homepage has more images than the best performing sellers of your category. Consider taking some off - sometimes less is more! "
+        },
+        "Text_count":{
+            "Labels": ["<100","100+","200+","300+","400+","500+"],
+            "Data":[2,4,1,1,1,1],
+            "Background_color":["#ffa41b","#ffa41b"],
+            "Min": 0,
+            "Max": 200,
+            "AS_below_min": "Your homepage contains fewer than average words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of text you show in your homepage!",
+            "AS_above_max": "Your homepage contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Font_count":{
+            "Labels": ["3","5","7","9","11","13"],
+            "Data":[1,3,2,2,1,1],
+            "Background_color":["#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "Max": 9,
+            "AS_below_min": "Your homepage contains fewer than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the number of fonts you use on your homepage.",
+            "AS_above_max": "Your homepage contains more than average types of font, based on our analysis. Take a look at the below statistics and try to adjust the font for some of your text to be within the recommended range."
+        },
+        "Text_count_first":{
+            "Labels": ["<100","100+"],
+            "Data":[10,0],
+            "Background_color":["#ffa41b"],
+            "Min": 0,
+            "Max": 100,
+            "AS_below_min": "Your website first impression page contains less than words, based on our analysis. Take a look at the below statistics and think of ways to add more textual content. If you need ideas on what to add, refer back to the 'Homepage Content Type' section.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the amount of words you write on your website first impression page.",
+            "AS_above_max": "Your website first impression page contains more than average words, based on our analysis. Take a look at the below statistics and think of ways to be more concise or tell your stories with videos or pictures instead."
+        },
+        "Image_aesthetic_first":{
+            "Labels": ["5.5 (good)","6 (excellent)"],
+            "Data":[3,7],
+            "Background_color":["#ffa41b","#ffa41b"],
+            "Min": 5.5,
+            "AS_below_min": "The picture(s) displayed in your first impression page is(are) scored less than our industry benchmark - we recommend you think of ways to improve the aesthetics of the image.",
+            "AS_in_range": "You got this! Keep doing what you are doing with the aesthetic quality of your first impression page."
+        },
+        "Image_aesthetic":{
+            "Labels": ["3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)"],
+            "Data":[3,18,43,65,55,17],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image aesthetic quality you show on your homepage!"
+        },
+        "Image_technical":{
+            "Labels": ["3 (poor)", "3.5 (poor)", "4 (poor)", "4.5 (poor)","5 (good)","5.5 (good)","6 (excellent)","6.5 (excellent)"],
+            "Data":[1,4,11,41,48,53,35,8],
+            "Background_color":["#DEDEDE","#DEDEDE","#DEDEDE","#DEDEDE","#ffa41b","#ffa41b","#ffa41b","#ffa41b"],
+            "Min": 5,
+            "AS_below_min": "dsg",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image technical quality you show on your homepage!"
+        },
+        "Image_effectiveness":{
+            "Labels": [2,3],
+            "Data":[1,2],
+            "Background_color":[],
+            "Min": 0.6,
+            "AS_below_min": "Below are some images that don't include your products - considering swamping them out with images that contain your products! ",
+            "AS_in_range": "You got this! Keep doing what you are doing with the image effectiveness you show on your homepage!"
+        },
+        "Image_effectiveness_first":{
+            "Labels": ["show real products","no real products"],
+            "Data":[10,0],
+            "Ratio":100,
+            "Background_color":["#ffa41b"],
+            "AS_below_min": "Our analysis shows that you are not showing your products in your first impression page. We urge you to think about this decision as most customers expect to see the store products upon just landing. If you have a strong rationale for this decision, we support that too! Below is some statistics for your reference. ",
+            "AS_in_range": "Our analysis shows that you are showing your products in your first impression page, which is great! "
+        },
+        "Theme_color":{
+            "style_1_name":"elegant, formal, authoritarian, premium, mature",
+            "style_2_name":"natural, pure, comfortable, neutral, graceful", 
+            "style_3_name":"adventurous, energetic, creative, joyful, light-hearted",
+            "style_1_color_code":["#1D1B1C","#F4F4F4","#FFFFFF"],
+            "style_2_color_code":["#D6B59F","#F1F0F0","#FFFFFF"],
+            "style_3_color_code":["#EBC5FF","#FEEE35","#C8F34E"],
+            "style_1_color_category":[ "Black", "White" ],
+            "style_2_color_category":[ "Brown", "White" ],
+            "style_3_color_category":[ "Purple", "Yellow", "Green" ],
+            "style_1_example":"https://www.thewatchbox.com/",
+            "style_2_example":"https://mejuri.com/",
+            "style_3_example":"https://studs.com/",
+            "Min":2,
+            "AS_not_same_color_category":"Whether you designed your website with a theme color palette in mind, the collective color choices you made form a them. Take a look at your color theme and reflect on whether this is aligned with what you would love your brand to be associated with! ",
+            "AS_same_color_category":"You got this! Keep doing what you are doing with the theme colors you show on your homepage!"         
+        }
+    }
+}

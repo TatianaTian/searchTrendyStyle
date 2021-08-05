@@ -1,0 +1,2386 @@
+"{
+    'bestfriendsbysheri.com':
+    {
+        {
+            image_id: 21,
+            deleteAll:['Footwear', 'Shoe'],
+            deleteExtra: ['Pillow'],
+            change:['Throw pillow'],
+            change_map:{
+                'Throw pillow': 'Animal bed'
+            }
+        },
+        {
+            image_id: 15,
+            deleteAll:['Footwear', 'Shoe'],
+            deleteExtra: ['Pillow'],
+            change:['Throw pillow'],
+            change_map:{
+                'Throw pillow': 'Animal bed'
+            }
+        },
+        {
+            image_id: 17,
+            deleteAll:[''],
+            deleteExtra: [''],
+            change:['Couch'],
+            change_map:{
+                'Couch':'Animal bed'
+            }
+        },
+        {
+            image_id: 16,
+            deleteAll:[''],
+            deleteExtra: [''],
+            change:['Pillow'],
+            change_map:{
+                'Pillow':'Animal bed'
+            }
+        },
+        {
+            image_id: 21,
+            deleteAll:['Couch','Bed'],
+            deleteExtra: [''],
+            change:[''],
+            change_map:{
+                '':''
+            }
+        },
+        {
+            image_id: 19,
+            deleteAll:[''],
+            deleteExtra: [''],
+            change:['Pillow'],
+            change_map:{
+                'Pillow':'Animal bed'
+            }
+        },
+        {
+            image_id: 3,
+            deleteAll:[''],
+            deleteExtra: [''],
+            change:['Packaged goods'],
+            change_map:{
+                'Packaged goods':'Animal bed'
+            }
+        },
+        {
+            image_id: 20,
+            deleteAll:[''],
+            deleteExtra: ['Dog'],
+            change:['Bed'],
+            change_map:{
+                'Bed':'Animal bed'
+            }
+        },
+        {
+            image_id: 6,
+            deleteAll:[''],
+            deleteExtra: [''],
+            change:['Furniture'],
+            change_map:{
+                'Furniture':'Animal bed'
+            }
+        },
+        {
+            image_id: 18,
+            deleteAll:['Hat'],
+            deleteExtra: [''],
+            change:['Luggage & bags'],
+            change_map:{
+                'Luggage & bags':'Animal bed'
+            }
+        },
+        {
+            image_id: 22,
+            deleteAll:[''],
+            deleteExtra: ['Picture frame'],
+            change:[''],
+            change_map:{
+            }
+        },
+        {
+            image_id: 9,
+            deleteAll:[''],
+            deleteExtra: [''],
+            change:['Pillow'],
+            change_map:{
+                'Pillow':'Animal bed'
+            }
+        }
+    },
+    'headsupfortails.com': {
+        image_id: 21,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 7,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 17,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 14,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 13,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Belt'],
+        change_map:{
+            'Belt': 'Belt (store product)'
+        }
+    },
+    {
+        image_id: 29,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Dog bed'],
+        change_map:{
+            'Dog bed': 'Dog bed (store product)'
+        }
+    },
+    {
+        image_id: 5,
+        deleteAll:['Luggage & bags'],
+        deleteExtra: [''],
+        change:['Hat'],
+        change_map:{
+            'Hat':'Dog clothing (store product)'
+        }
+    },
+    {
+        image_id: 9,
+        deleteAll:['Shoe'],
+        deleteExtra: ['Animal'],
+        change:['Hat'],
+        change_map:{
+            'Hat':'Toy (store product)'
+        }
+    },
+    {
+        image_id: 15,
+        deleteAll:['Hat'],
+        deleteExtra: [],
+        change:['Luggage & bags'],
+        change_map:{
+            'Luggage & bags':'Animal bed (store product)'
+        }
+    },
+    {
+        image_id: 12,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 18,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 28,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Bowl (store product)'
+        }
+    },
+    {
+        image_id: 26,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 32,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Bowtie'],
+        change_map:{
+            'Bowtie': 'Bowtie (store product)'
+        }
+    },
+    {
+        image_id: 24,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 27,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 16,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 25,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 19,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:['Bagged packaged goods'],
+        deleteExtra: ['Packaged goods'],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 11,
+        deleteAll:[''],
+        deleteExtra: ['Bowtie'],
+        change:[''],
+        change_map:{
+        }
+    },
+    {
+        image_id: 11,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Bowtie'],
+        change_map:{
+            'Bowtie': 'Bowtie (store product)'
+        }
+    },
+    {
+        image_id: 23,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 22,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Dog bed'],
+        change_map:{
+            'Dog bed': 'Dog bed (store product)'
+        }
+    },
+    {
+        image_id: 10,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Tie'],
+        change_map:{
+            'Tie': 'Dog clothing (store product)'
+        }
+    },
+    'www.pawhuggies.com':
+    {
+        image_id: 12,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Mirror'],
+        change_map:{
+            'Mirror': 'Gate (store product)'
+        }
+    },
+    {
+        image_id: 9,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Luggage & bags'],
+        change_map:{
+            'Luggage & bags': 'Dog pad (store product)'
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:['Top'],
+        deleteExtra: [''],
+        change:['Bagged packaged goods'],
+        change_map:{
+            'Bagged packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: ['Person'],
+        change:['Ball'],
+        change_map:{
+            'Ball': 'Ball (store product)'
+        }
+    },
+    {
+        image_id: 11,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Container'],
+        change_map:{
+            'Container': 'Cleaning container (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:[''],
+        deleteExtra: ['Dog'],
+        change:[''],
+        change_map:{
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[''],
+        deleteExtra: ['Dog'],
+        change:[''],
+        change_map:{
+        }
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: ['Ball (store product)', 'Packaged goods (store product)'],
+        change:[''],
+        change_map:{
+        },
+    },
+    'zestypaws.com':
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 10,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 9,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Bowl'
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:['Pants','Shoe'],
+        deleteExtra: [''],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Bowl'
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:['Hat'],
+        deleteExtra: [''],
+        change:[''],
+        change_map:{
+        }
+    },
+    {
+        image_id: 7,
+        deleteAll:['Hat'],
+        deleteExtra: [''],
+        change:[''],
+        change_map:{
+        }
+    },
+    {
+        image_id: 11,
+        deleteAll:[''],
+        deleteExtra: ['Animal',''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods':'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 5,
+        deleteAll:[],
+        deleteExtra: [],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods':'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[],
+        deleteExtra: [],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods':'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    'roccoandroxie.com':
+    {
+        image_id: 10,
+        deleteAll:['Earrings'],
+        deleteExtra: [''],
+        change:['Hat'],
+        change_map:{
+            'Hat': 'Dog bandanas (store product)'
+        }
+    },
+    {
+        image_id: 18,
+        deleteAll:['Necklace','Luggage & bags'],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Hat': 'Dog bandanas (store product)'
+        }
+    },
+    {
+        image_id: 18,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Scarf'],
+        change_map:{
+            'Scarf': 'Dog bandanas (store product)'
+        }
+    },
+    {
+        image_id: 30,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Bagged packaged goods'],
+        change_map:{
+            'Bagged packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 17,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Toy (store product)'
+        },
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: ['Belt'],
+        change:[''],
+        change_map:{
+        },
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Belt'],
+        change_map:{
+            'Belt':'Collar (store product)'
+        },
+    },
+    {
+        image_id: 13,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods':'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 6,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods':'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 25,
+        deleteAll:['Shoe'],
+        deleteExtra: ['Person','Animal'],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods':'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 26,
+        deleteAll:['Squash'],
+        deleteExtra: ['Pumpkin',],
+        change:['Animal'],
+        change_map:{
+            'Animal':'Dog'
+        },
+    },
+    {
+        image_id: 24,
+        deleteAll:['Glasses'],
+        deleteExtra: ['',],
+        change:[''],
+        change_map:{
+            '':''
+        },
+    },
+    {
+        image_id: 24,
+        deleteAll:['Glasses'],
+        deleteExtra: ['',],
+        change:[''],
+        change_map:{
+            '':''
+        },
+    },
+    {
+        image_id: 9,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 9,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 15,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 22,
+        deleteAll:['Luggage & bags','Hat'],
+        deleteExtra: ['Dog'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 22,
+        deleteAll:[''],
+        deleteExtra: [],
+        change:['Scarf'],
+        change_map:{
+            'Scarf': 'Clothing (store product)'
+        },
+    },
+    {
+        image_id: 27,
+        deleteAll:['Necklace'],
+        deleteExtra: [],
+        change:['Hat'],
+        change_map:{
+            'Hat': 'Dog bandanas (store product)'
+        },
+    },
+    {
+        image_id: 29,
+        deleteAll:['Necklace'],
+        deleteExtra: ['Hat'],
+        change:['Hat'],
+        change_map:{
+            'Hat': 'Dog bandanas (store product)'
+        },
+    },
+    {
+        image_id: 29,
+        deleteAll:['Necklace'],
+        deleteExtra: [],
+        change:['Hat'],
+        change_map:{
+            'Hat': 'Dog bandanas (store product)'
+        },
+    },
+    {
+        image_id: 21,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 14,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 12,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 19,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Scarf'],
+        change_map:{
+            'Scarf': 'Dog bandanas (store product)'
+        },
+    },
+    {
+        image_id: 23,
+        deleteAll:['Squash'],
+        deleteExtra: ['Pumpkin'],
+        change:[''],
+        change_map:{
+            'Scarf': 'Dog bandanas (store product)'
+        },
+    },
+    {
+        image_id: 28,
+        deleteAll:['Dress'],
+        deleteExtra: [''],
+        change:[''],
+        change_map:{
+            'Top': 'Dog bandanas (store product)'
+        },
+    },
+    {
+        image_id: 20,
+        deleteAll:['Hat','Watch','Outerwear'],
+        deleteExtra: [''],
+        change:[''],
+        change_map:{
+            'Top': 'Dog bandanas (store product)'
+        },
+    },
+    {
+        image_id: 5,
+        deleteAll:[],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Top': 'Dog bandanas (store product)'
+        },
+    },
+    {
+        image_id: 5,
+        deleteAll:[],
+        deleteExtra: [],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 11,
+        deleteAll:['Ball'],
+        deleteExtra: [],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Toy (store product)'
+        },
+    },
+    {
+        image_id: 7,
+        deleteAll:[],
+        deleteExtra: [],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 3,
+        deleteAll:['Bottled and jarred packaged goods'],
+        deleteExtra: ['Packaged goods'],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Collar (store product)'],
+        change_map:{
+            'Collar (store product)': 'Packaged goods (store product)'
+        },
+        //add:['Collar (store product)']
+    },
+    {
+        image_id: 2,
+        deleteAll:['Necklace'],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Collar (store product)': 'Packaged goods (store product)'
+        },
+        add:['Collar (store product)']
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Collar (store product)'],
+        change_map:{
+            'Collar (store product)': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Collar (store product)'],
+        change_map:{
+            'Collar (store product)': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 25,
+        deleteAll:['Footwear'],
+        deleteExtra: ['Dog'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 23,
+        deleteAll:[''],
+        deleteExtra: ['Dog'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 28,
+        deleteAll:[''],
+        deleteExtra: ['Dog'],
+        change:['Top'],
+        change_map:{
+            'Top': 'Dog bandanas (store product)'
+        },
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods (store product)'],
+        change:['Collar (store product)'],
+        change_map:{
+            'Collar (store product)': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods (store product)'],
+        change:['Collar (store product)'],
+        change_map:{
+            'Collar (store product)': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods (store product)'],
+        change:['Collar (store product)'],
+        change_map:{
+            'Collar (store product)': 'Packaged goods (store product)'
+        },
+    },
+    'petbelong.com':
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Watch'],
+        change_map:{
+            'Watch': 'Harness (store product)'
+        }
+    },
+    {
+        image_id: 5,
+        deleteAll:['Luggage & bags'],
+        deleteExtra: ['Necklace'],
+        change:[''],
+        change_map:{
+            'Watch': 'Harness (store product)'
+        }
+    },
+    {
+        image_id: 5,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Necklace','Bag'],
+        change_map:{
+            'Necklace': 'Leash (store product)',
+            'Bag':'Harness (store product)'
+        }
+    },
+    {
+        image_id: 7,
+        deleteAll:[''],
+        deleteExtra: ['Bag'],
+        change:[],
+        change_map:{
+            'Necklace': 'Leash (store product)',
+            'Bag':'Harness (store product)'
+        }
+    },
+    {
+        image_id: 7,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Bag'],
+        change_map:{
+            'Bag':'Pouch (store product)'
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Bag'],
+        change_map:{
+            'Bag':'Harness (store product)'
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: ['Dog'],
+        change:[''],
+        change_map:{
+            'Bag':'Harness (store product)'
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Watch'],
+        change_map:{
+            'Watch':'Harness (store product)'
+        }
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: ['Dog'],
+        change:[''],
+        change_map:{
+            'Bag':'Harness (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Luggage & bags'],
+        change_map:{
+            'Luggage & bags':'Harness (store product)'
+        }
+    },
+    'www.fetchingware.com.au':
+    {
+        image_id: 4,
+        deleteAll:['Watch'],
+        deleteExtra: [''],
+        change:['Belt'],
+        change_map:{
+            'Belt': 'Collar (store product)'
+        }
+    },
+    {
+        image_id: 14,
+        deleteAll:['Animal'],
+        deleteExtra: [''],
+        change:['Hat'],
+        change_map:{
+            'Hat': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:['Belt'],
+        deleteExtra: ['Bracelet'],
+        change:[''],
+        change_map:{
+            'Hat': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Bracelet'],
+        change_map:{
+            'Bracelet': 'Collar (store product)'
+        }
+    },
+    {
+        image_id: 9,
+        deleteAll:['Animal','Top'],
+        deleteExtra: [''],
+        change:['Outerwear'],
+        change_map:{
+            'Outerwear': 'Dog clothing (store product)'
+        }
+    },
+    {
+        image_id: 17,
+        deleteAll:['Animal','Top'],
+        deleteExtra: [''],
+        change:['Outerwear'],
+        change_map:{
+            'Outerwear': 'Dog clothing (store product)'
+        }
+    },
+    {
+        image_id: 16,
+        deleteAll:['Animal','Hat','Pillow'],
+        deleteExtra: [''],
+        change:['Toy'],
+        change_map:{
+            'Toy':'Toy (store product)'
+        }
+    },
+    {
+        image_id: 13,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Necklace'],
+        change_map:{
+            'Necklace':'Tag (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:[],
+        deleteExtra: ['Luggage & bags'],
+        change:[''],
+        change_map:{
+            'Necklace':'Tag (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Luggage & bags'],
+        change_map:{
+            'Luggage & bags':'Lead (store product)'
+        }
+    },
+    {
+        image_id: 10,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Doughnut'],
+        change_map:{
+            'Doughnut':'Toy (store product)'
+        }
+    },
+    {
+        image_id: 15,
+        deleteAll:['Hat','Animal','Pillow'],
+        deleteExtra: [''],
+        change:['Stuffed toy'],
+        change_map:{
+            'Stuffed toy':'Toy (store product)'
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:['Shoe','Jeans'],
+        deleteExtra: [''],
+        change:['Pants'],
+        change_map:{
+            'Pants':'Leash (store product)'
+        }
+    },
+    {
+        image_id: 5,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Belt'],
+        change_map:{
+            'Belt':'Leash (store product)'
+        }
+    },
+    'happypetbrand.com':
+    {
+        image_id: 9,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[''],
+        deleteExtra: ['Tubed packaged goods','Packaged goods'],
+        change:[],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[''],
+        deleteExtra: ['Tubed packaged goods','Packaged goods'],
+        change:['Tubed packaged goods','Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)',
+            'Tubed packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 10,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 5,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 5,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 7,
+        deleteAll:['Sunglasses'],
+        deleteExtra: ['Person'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods','Bottled and jarred packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)',
+            'Bottled and jarred packaged goods': 'Bottled and jarred packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods','Tubed packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)',
+            'Tubed packaged goods': 'Tubed packaged goods (store product)'
+        } 
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods','Tubed packaged goods'],
+        change:[],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)',
+            'Tubed packaged goods': 'Tubed packaged goods (store product)'
+        } 
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:['Packaged goods','Tubed packaged goods','Bottled and jarred packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)',
+            'Tubed packaged goods': 'Tubed packaged goods (store product)',
+            'Bottled and jarred packaged goods': 'Bottled and jarred packaged goods (store product)'
+        } 
+    },
+    'wildone.com':
+    {
+        image_id: 29,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 29,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 24,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Bowl (store product)'
+        }
+    },
+    {
+        image_id: 26,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Shoe','Bracelet'],
+        change_map:{
+            'Shoe': 'Harness (store product)',
+            'Bracelet': 'Leash (store product)'
+        }
+    },
+    {
+        image_id: 15,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 15,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 14,
+        deleteAll:[''],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 14,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods','Shoe','Bracelet'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)',
+            'Shoe': 'Harness (store product)',
+            'Bracelet': 'Leash (store product)'
+        }
+    },
+    {
+        image_id: 9,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Bowtie','Necklace'],
+        change_map:{
+            'Bowtie': 'Bag carrier (store product)',
+            'Necklace': 'Leash (store product)',
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: ['Bracelet'],
+        change:[],
+        change_map:{
+            'Bowtie': 'Bag carrier (store product)',
+            'Necklace': 'Leash (store product)',
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Bracelet'],
+        change_map:{
+            'Bracelet': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 11,
+        deleteAll:[''],
+        deleteExtra: ['Lighting'],
+        change:[],
+        change_map:{
+            'Bowtie': 'Bag carrier (store product)',
+            'Necklace': 'Leash (store product)',
+        }
+    },
+    {
+        image_id: 11,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Lighting'],
+        change_map:{
+            'Lighting': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 22,
+        deleteAll:['Hat'],
+        deleteExtra: ['Ball'],
+        change:[''],
+        change_map:{
+            'Lighting': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 22,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Ball'],
+        change_map:{
+            'Ball': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 12,
+        deleteAll:['Table top','Plate'],
+        deleteExtra: ['Person','Tableware'],
+        change:['Drink'],
+        change_map:{
+            'Drink': 'Harness (store product)',
+        }
+    },
+    {
+        image_id: 25,
+        deleteAll:[],
+        deleteExtra: ['Bracelet'],
+        change:[''],
+        change_map:{
+            'Drink': 'Harness (store product)',
+        }
+    },
+    {
+        image_id: 25,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Bracelet'],
+        change_map:{
+            'Bracelet': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 13,
+        deleteAll:[],
+        deleteExtra: ['Food','Dessert'],
+        change:[''],
+        change_map:{
+            'Bracelet': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 18,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 16,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Shoe'],
+        change_map:{
+            'Shoe': 'Harness (store product)'
+        }
+    },
+    {
+        image_id: 17,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 5,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Luggage & bags'],
+        change_map:{
+            'Luggage & bags': 'Luggage & bags (store product)'
+        }
+    },
+    {
+        image_id: 7,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Lighting'],
+        change_map:{
+            'Lighting': 'Bowl (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:['Bracelet'],
+        deleteExtra: [''],
+        change:['Belt'],
+        change_map:{
+            'Belt': 'Leash (store product)'
+        }
+    },
+    {
+        image_id: 28,
+        deleteAll:[''],
+        deleteExtra: ['Dog'],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Animal bed (store product)'
+        }
+    },
+    {
+        image_id: 27,
+        deleteAll:['Pants','Shoe','Top'],
+        deleteExtra: ['Person'],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:['Shoe','Top','Luggage & bags'],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:[],
+        deleteExtra: [],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 23,
+        deleteAll:[],
+        deleteExtra: [],
+        change:['Tie'],
+        change_map:{
+            'Tie': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 10,
+        deleteAll:[],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Tie': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 10,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Bracelet'],
+        change_map:{
+            'Bracelet': 'Harness (store product)'
+        }
+    },
+    {
+        image_id: 20,
+        deleteAll:[],
+        deleteExtra: ['Packaged goods'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 20,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 21,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 1,
+        deleteAll:[],
+        deleteExtra: ['Person','Luggage & bags','Animal'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 1,
+        deleteAll:[],
+        deleteExtra: [],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Dog'
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Tag toy (store product)'],
+        change_map:{
+            'Tag toy (store product)': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 11,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Tag toy (store product)'],
+        change_map:{
+            'Tag toy (store product)': 'Toy (store product)',
+        }
+    },
+    'petssogood.com':
+    {
+        image_id: 7,
+        deleteAll:[''],
+        deleteExtra: ['Food'],
+        change:[''],
+        change_map:{
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 7,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Food'],
+        change_map:{
+            'Food': 'Bowl (store product)'
+        }
+    },
+    {
+        image_id: 22,
+        deleteAll:['Animal'],
+        deleteExtra: [''],
+        change:['Bowtie'],
+        change_map:{
+            'Bowtie': 'Dog clothing (store product)'
+        }
+    },
+    {
+        image_id: 17,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Tableware','Dessert'],
+        change_map:{
+            'Tableware': 'Tableware (store product)',
+            'Dessert':'Food'
+        }
+    },
+    {
+        image_id: 19,
+        deleteAll:['Table'],
+        deleteExtra: [''],
+        change:['Tableware'],
+        change_map:{
+            'Tableware': 'Tableware (store product)'
+        }
+    },
+    {
+        image_id: 23,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Lighting'],
+        change_map:{
+            'Lighting': 'Animal bed (store product)'
+        }
+    },
+    {
+        image_id: 27,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Animal bed (store product)'
+        }
+    },
+    {
+        image_id: 14,
+        deleteAll:['Hat','Animal'],
+        deleteExtra: [''],
+        change:['Shoe'],
+        change_map:{
+            'Shoe': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 13,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 16,
+        deleteAll:[''],
+        deleteExtra: ['Lighting'],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Dog'
+        }
+    },
+    {
+        image_id: 16,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Lighting'],
+        change_map:{
+            'Lighting': 'Animal bed (store product)'
+        }
+    },
+    {
+        image_id: 15,
+        deleteAll:['Animal','Pillow'],
+        deleteExtra: [''],
+        change:['Couch'],
+        change_map:{
+            'Couch': 'Animal bed (store product)'
+        }
+    },
+    {
+        image_id: 26,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Animal','Stool'],
+        change_map:{
+            'Animal': 'Dog',
+            'Stool': 'Bowl (store product)'
+        }
+    },
+    {
+        image_id: 25,
+        deleteAll:[],
+        deleteExtra: [''],
+        change:['Hat'],
+        change_map:{
+            'Hat': 'Hat (store product)'
+        }
+    },
+    {
+        image_id: 18,
+        deleteAll:['Stool'],
+        deleteExtra: [''],
+        change:['Tableware'],
+        change_map:{
+            'Tableware': 'Tableware (store product)'
+        }
+    },
+    {
+        image_id: 11,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Dog'
+        }
+    },
+    {
+        image_id: 10,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Hat'],
+        change_map:{
+            'Hat': 'Dog'
+        }
+    },
+    {
+        image_id: 20,
+        deleteAll:['Table'],
+        deleteExtra: [''],
+        change:['Shoe'],
+        change_map:{
+            'Shoe': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 12,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Hat'],
+        change_map:{
+            'Hat': 'Dog clothing (store product)'
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Dog bed (store product)'
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Dog bed (store product)'
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:['Flowerpot'],
+        deleteExtra: [''],
+        change:['Animal','Couch'],
+        change_map:{
+            'Animal': 'Dog',
+            'Couch': 'Dog bed (store product)'
+        }
+    },
+    {
+        image_id: 21,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Food','Packaged goods'],
+        change_map:{
+            'Food': 'Toy (store product)',
+            'Packaged goods': 'Packaged goods (store product)'
+        }
+    },
+    {
+        image_id: 1,
+        deleteAll:['Flowerpot'],
+        deleteExtra: [''],
+        change:['Animal','Packaged goods'],
+        change_map:{
+            'Animal': 'Dog',
+            'Packaged goods': 'Animal bed (store product)'
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Dog bed (store product)'],
+        change_map:{
+            'Dog bed (store product)': 'Animal bed (store product)',
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Dog bed (store product)'],
+        change_map:{
+            'Dog bed (store product)': 'Animal bed (store product)',
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Dog bed (store product)'],
+        change_map:{
+            'Dog bed (store product)': 'Animal bed (store product)',
+        }
+    },
+    'www.freshpawz.com':
+    {
+        image_id: 3,
+        deleteAll:['Watch','Animal'],
+        deleteExtra: [''],
+        change:['Shoe'],
+        change_map:{
+            'Shoe': 'Leash (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:['',''],
+        deleteExtra: [''],
+        change:[''],
+        change_map:{
+            'Shoe': 'Leash (store product)'
+        },
+    },
+    {
+        image_id: 11,
+        deleteAll:['',''],
+        deleteExtra: [''],
+        change:['Wheel'],
+        change_map:{
+            'Wheel': 'Collar (store product)'
+        },
+    },
+    {
+        image_id: 10,
+        deleteAll:['',''],
+        deleteExtra: [''],
+        change:['Bowtie'],
+        change_map:{
+            'Bowtie': 'Bowtie (store product)'
+        },
+    },
+    {
+        image_id: 9,
+        deleteAll:['',''],
+        deleteExtra: [''],
+        change:['Pants'],
+        change_map:{
+            'Pants': 'Leash (store product)'
+        },
+    },
+    {
+        image_id: 7,
+        deleteAll:['',''],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Dog'
+        },
+    },
+    {
+        image_id: 5,
+        deleteAll:['Person'],
+        deleteExtra: ['Shoe'],
+        change:[''],
+        change_map:{
+            'Animal': 'Dog'
+        },
+    },
+    {
+        image_id: 5,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Shoe'],
+        change_map:{
+            'Shoe': 'Dog Shoe (store product)'
+        },
+    },
+    {
+        image_id: 1,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Leash (store product)'
+        },
+    },
+    {
+        image_id: 7,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:[''],
+        change_map:{
+            'Animal': 'Leash (store product)'
+        },
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:[''],
+        change_map:{
+            'Animal': 'Leash (store product)'
+        },
+    },
+    {
+        image_id: 4,
+        deleteAll:['Shorts','Tire'],
+        deleteExtra: ['Person','Dog'],
+        change:['Shoe','Pants'],
+        change_map:{
+            'Shoe': 'Leash (store product)',
+            'Pants': 'Dog clothing (store product)'
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:['',''],
+        deleteExtra: ['Harness (store product)'],
+        change:[''],
+        change_map:{
+            'Shoe': 'Leash (store product)'
+        },
+    },
+    {
+        image_id: 6,
+        deleteAll:['',''],
+        deleteExtra: ['Dog clothing (store product)'],
+        change:[''],
+        change_map:{
+            'Pants': 'Leash (store product)'
+        },
+    },
+    'fablepets.com':
+    {
+        image_id: 3,
+        deleteAll:['Pants'],
+        deleteExtra: ['Person','Animal'],
+        change:[''],
+        change_map:{
+            'Shoe': 'Leash (store product)'
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: [],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Dog'
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: [],
+        change:['Lighting'],
+        change_map:{
+            'Lighting': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:['Shoe','Pants',],
+        deleteExtra: [],
+        change:['Lighting'],
+        change_map:{
+            'Lighting': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:['','',],
+        deleteExtra: ['Person','Pants'],
+        change:[''],
+        change_map:{
+            'Lighting': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:['','',],
+        deleteExtra: ['',''],
+        change:['Pants'],
+        change_map:{
+            'Pants': 'Leash (store product)'
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:['','',],
+        deleteExtra: ['',''],
+        change:['Pants'],
+        change_map:{
+            'Pants': 'Leash (store product)'
+        },
+    },
+    {
+        image_id: 11,
+        deleteAll:['','',],
+        deleteExtra: ['',''],
+        change:['Bag','Packaged goods'],
+        change_map:{
+            'Bag': 'Bag (store product)',
+            'Packaged goods': 'Packaged goods (store product)'
+        },
+    },
+    {
+        image_id: 10,
+        deleteAll:['','',],
+        deleteExtra: ['',''],
+        change:['Watch'],
+        change_map:{
+            'Watch': 'Crate (store product)',
+        },
+    },
+    {
+        image_id: 12,
+        deleteAll:['Footwear',],
+        deleteExtra: ['',''],
+        change:['Jeans'],
+        change_map:{
+            'Jeans': 'Leash (store product)',
+        },
+    },
+    {
+        image_id: 9,
+        deleteAll:['',],
+        deleteExtra: ['Earrings'],
+        change:[''],
+        change_map:{
+            'Jeans': 'Leash (store product)',
+        },
+    },
+    {
+        image_id: 9,
+        deleteAll:['',],
+        deleteExtra: [''],
+        change:['Earrings'],
+        change_map:{
+            'Earrings': 'Leash (store product)',
+        },
+    },
+    {
+        image_id: 7,
+        deleteAll:['',],
+        deleteExtra: [''],
+        change:[''],
+        change_map:{
+            'Earrings': 'Leash (store product)',
+        },
+    },
+    {
+        image_id: 5,
+        deleteAll:['',],
+        deleteExtra: [''],
+        change:['Infant bed'],
+        change_map:{
+            'Infant bed': 'Crate (store product)',
+        },
+    },
+    {
+        image_id: 1,
+        deleteAll:['',],
+        deleteExtra: ['Humidifier'],
+        change:[''],
+        change_map:{
+            'Infant bed': 'Crate (store product)',
+        },
+    },
+    {
+        image_id: 1,
+        deleteAll:['',],
+        deleteExtra: [''],
+        change:['Humidifier'],
+        change_map:{
+            'Humidifier': 'Toy (store product)',
+        },
+    },
+    {
+        image_id: 1,
+        deleteAll:['',],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Dog',
+        },
+    },
+    'www.petplay.com':
+    {
+        image_id: 18,
+        deleteAll:['Bird'],
+        deleteExtra: ['Animal'],
+        change:[''],
+        change_map:{
+            'Shoe': 'Leash (store product)'
+        }
+    },
+    {
+        image_id: 18,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 5,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Animal','Packaged goods'],
+        change_map:{
+            'Animal': 'Dog',
+            'Packaged goods': 'Toy (store product)'
+        }
+    },
+    {
+        image_id: 14,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Luggage & bags'],
+        change_map:{
+            'Luggage & bags': 'Animal bed (store product)',
+        }
+    },
+    {
+        image_id: 3,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Pillow'],
+        change_map:{
+            'Pillow': 'Animal bed (store product)',
+        }
+    },
+    {
+        image_id: 13,
+        deleteAll:['Footwear','Pants','Hat','Outerwear'],
+        deleteExtra: [''],
+        change:['Packaged goods'],
+        change_map:{
+            'Packaged goods': 'Animal bed (store product)',
+        }
+    },
+    {
+        image_id: 17,
+        deleteAll:['Animal'],
+        deleteExtra: [''],
+        change:['Toy'],
+        change_map:{
+            'Toy': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 6,
+        deleteAll:['Jeans'],
+        deleteExtra: [''],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 9,
+        deleteAll:['Animal'],
+        deleteExtra: [''],
+        change:['Packaged goods','Christmas tree'],
+        change_map:{
+            'Packaged goods': 'Toy (store product)',
+            'Christmas tree': 'Houseplant'
+        }
+    },
+    {
+        image_id: 12,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Racket'],
+        change_map:{
+            'Racket': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 16,
+        deleteAll:['Animal'],
+        deleteExtra: [''],
+        change:['Hat'],
+        change_map:{
+            'Hat': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 11,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Animal','Luggage & bags'],
+        change_map:{
+            'Animal': 'Dog',
+            'Luggage & bags': 'Animal bed (store product)',
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: ['Pillow'],
+        change:[],
+        change_map:{
+            'Animal': 'Dog',
+            'Luggage & bags': 'Animal bed (store product)',
+        }
+    },
+    {
+        image_id: 8,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Pillow'],
+        change_map:{
+            'Pillow': 'Animal bed (store product)',
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: ['Food'],
+        change:['Animal'],
+        change_map:{
+            'Animal': 'Dog',
+        }
+    },
+    {
+        image_id: 2,
+        deleteAll:[''],
+        deleteExtra: [''],
+        change:['Food'],
+        change_map:{
+            'Food': 'Toy (store product)',
+        }
+    },
+    {
+        image_id: 4,
+        deleteAll:[''],
+        deleteExtra: ['Dog'],
+        change:['Tire'],
+        change_map:{
+            'Tire': 'Collar (store product)',
+        }
+    },
+    {
+        image_id: 15,
+        deleteAll:['Bag'],
+        deleteExtra: ['Luggage & bags'],
+        change:[''],
+        change_map:{
+            'Tire': 'Collar (store product)',
+        }
+    },
+    {
+        image_id: 15,
+        deleteAll:['Bag'],
+        deleteExtra: [''],
+        change:['Luggage & bags'],
+        change_map:{
+            'Luggage & bags': 'Animal bed (store product)',
+        }
+    },
+    {
+        image_id: 1,
+        deleteAll:['Animal','Tableware'],
+        deleteExtra: [''],
+        change:['Food'],
+        change_map:{
+            'Food': 'Toy (store product)',
+        },
+        add:['Person']
+    },
+}"
+

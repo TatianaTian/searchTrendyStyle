@@ -1,0 +1,17 @@
+{
+    "emotions":{
+        "White": "purity,innocence,cleanliness",
+        "Black": "authority,power,strength,evil",
+        "Gray": "neutral,timeless,practical",
+        "Green": "natural,growth,health,calmness",
+        "Blue": "calmness,cold,focused",
+        "Purple": "royalty,sophistication,mystery",
+        "Brown": "reliability,natural,organic",
+        "Pink": "romance,love,gentle,calming",
+        "Red": "love,romance,excitement",
+        "Orange": "happy,energetic,stimulation",
+        "Yellow": "happiness,laughter,cheery"
+    }
+
+    
+}

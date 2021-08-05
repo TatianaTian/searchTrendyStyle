@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "haloy-15c76",
+  "private_key_id": "eb57912df9237a0b48bed9a9b360e14ca85e1ec6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDcLD09G/jhBXQ\nohFFLuDLejJUMK7J8ebiY9XbQaK6VapIBOORf9iW+XH0PPmHbd84k+8A74s4UvEN\n/TiGTeldA4dnObKJq9bugHG7btTWgsHcHvB+1hOldORe/ZOCgcbBMiBpvDIWH7AT\nLzWbAbpnarIlUZ1sbb7e/YHTESWjchKMOhRKaXuVY9l/aJVVP8Aj2C69tguEEIUu\np9D4pdVZB8jg0nUc8WPR7EQtbqKtZcuiyIEMlBlP3pG7/kBOfdabrw8Ju61XG2dm\npONizOJ+aZCV+meWcfPBzeto2fy2VXuYMOACHXSI3KbteDlDNNV3IcDkXW0Fwkqv\n2SqB3fZ/AgMBAAECggEAT8BRhXOloMrKeBtaPsf1VTLlDLPc72010RX6M4FiHPVO\nChtsnXf08w6RMKAdFuV/3D+JnPEi93XpBdNZ2Hw8iQcinr3NnB4yE5r4TgrY8Tvk\nTaWWb7t9wtujQRvqsKuyZi3FSkBQk/SUTg/KqRkYbpD8ZvwZ6CAUbjw2WOG7YSk5\niNaWa0rwe83LJLbn5NSsiP269y9Ny4nmukse7QkhQSFKs9f/f9YxMD9bL+lPpzFS\nWUK44JaRtQt1LxAFNF44EqpVQxeEQrDF3bmhPkqPKGlu3kKJGj9SxMAfYWi96YbB\nV87t1ejIw6LiettFugDhxf9BfiCcVikcvpYOrEhxUQKBgQDtK4cjTURsYnWGHih1\nVnCVze1sqgD6OF9sVWAG3CZYiSKII27RSoX4wb6RFNRC6WKLl7UNhLu+DCsWjwXB\nyfBeSfClg9pBhpteiaRn/oi84TMv76whT8Hb5T3jfvpBB2SbVEhrWc2fjZDRcFPw\nVCQkGzbQJZr0FUZQNPwwB5jCxwKBgQDS9QGPA7LU6fJijqI6jWDKMQ9axTModAsO\ny7BUaitmKSyFwca948SidKNBqvaZxVMKy359oucRFw//hXyOIvS3QCyX77oVfxDT\nDQrA8mle1uG0iYlGy40sFnfjN3pT2Mky6OEsooFCJzCgpBhSuVaEeWuSgkKFR9le\nnyyIp/p2iQKBgQDEUfiuHyKZeTMBTut8nY3aYzi6b0sZ1RogCdfQNeHD/dhIytPL\niR222WGOpKhDrv70wCKNyybBXT85kDBaxncjBZ+e0rMS9IKd0d/2eXrkpqGBd6qL\ndILrLCp7qzsqIx2DelPsEM0l2sBardm9oVi9To2j5M0MaKPodsOeWlt4NwKBgCa/\nxkeEwGaHinQ8CuSCb5L0LAPaUSlPF3DiTUNUNSCQ05LGI0FiAw5sKki3pJBeRICp\nHFTrhVIIUHH5DQX2ucinSwmliSLFsktyC9WhMWWwRskoskSEwyuj/OWJnTili1+E\nk0flmaSTGkWHnsgjLxcqTm4c6yccKXtN9ZoscL8xAoGAAMj045W7fz6G82o2bIUY\nADYxd+h0P5zf9uqo/40K4NZJieM0drNUfd/hVwh/Ti77aiSZIZVLPqfIWwpjoUUr\nRIuQPZf+wR8REQtka6oTsHIgbQRH3mCGhB2MeP8EEwnZKVldviO8yMj1RWBKaysh\nbufGCXDlgd+iUJpdEk8BC/Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "reviewstore@haloy-15c76.iam.gserviceaccount.com",
+  "client_id": "111129146711094087712",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reviewstore%40haloy-15c76.iam.gserviceaccount.com"
+}

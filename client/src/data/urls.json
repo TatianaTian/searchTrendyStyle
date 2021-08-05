@@ -1,0 +1,223 @@
+{
+    "Animals & Pet Supplies":{
+        "review1":{
+            "url": "wildone.com"
+        },
+        "review2":{
+            "url":"bestfriendsbysheri.com"
+        },
+        "review3":{
+            "url": "www.pawhuggies.com"
+        },
+        "review4":{
+            "url":"happypetbrand.com"
+        },
+        "review5":{
+            "url": "fablepets.com"
+        }
+    },
+    "Apparel":{
+        "review1":{
+            "url": "www.shethinx.com"
+        },
+        "review2":{
+            "url":"matethelabel.com"
+        },
+        "review3":{
+            "url": "negativeunderwear.com"
+        },
+        "review4":{
+            "url":"www.taylorstitch.com"
+        },
+        "review5":{
+            "url": "www.thereformation.com"
+        }
+    },
+    "Furniture & Home & Arts":{
+        "review1":{
+            "url": "www.thesill.com"
+        },
+        "review2":{
+            "url":"www.leifshop.com"
+        },
+        "review3":{
+            "url": "stfrank.com"
+        },
+        "review4":{
+            "url":"buffy.co"
+        },
+        "review5":{
+            "url": "www.made.com"
+        }
+    },
+    "Food & Beverages":{
+        "review1":{
+            "url": "www.aidaeats.com"
+        },
+        "review2":{
+            "url":"bluebottlecoffee.com"
+        },
+        "review3":{
+            "url": "portofmokha.com"
+        },
+        "review4":{
+            "url":"bonbonbon.com"
+        },
+        "review5":{
+            "url": "www.artoftea.com"
+        }
+    },
+    "Health & Beauty":{
+        "review1":{
+            "url": "www.frankbody.com"
+        },
+        "review2":{
+            "url":"burrenperfumery.com"
+        },
+        "review3":{
+            "url": "www.glossier.com"
+        },
+        "review4":{
+            "url":"www.fentybeauty.com"
+        },
+        "review5":{
+            "url": "www.blume.com"
+        }
+    },
+    "Electronics & Accessories":{
+        "review1":{
+            "url": "www.ultimateears.com"
+        },
+        "review2":{
+            "url":"www.marshallheadphones.com"
+        },
+        "review3":{
+            "url": "us.polaroid.com"
+        },
+        "review4":{
+            "url":"www.bose.com"
+        },
+        "review5":{
+            "url": "www.jbl.com"
+        }
+    },
+    "Office/School Supplies":{
+        "review1":{
+            "url": "www.studioneat.com"
+        },
+        "review2":{
+            "url":"sugarpaper.com"
+        },
+        "review3":{
+            "url": "beatific.co"
+        },
+        "review4":{
+            "url":"us.moleskine.com"
+        },
+        "review5":{
+            "url": "www.riteintherain.com"
+        }
+    },
+    "Sporting Goods":{
+        "review1":{
+            "url": "k2snow.com"
+        },
+        "review2":{
+            "url":"tribesports.com"
+        },
+        "review3":{
+            "url": "www.leatherheadsports.com"
+        },
+        "review4":{
+            "url":"www.purecycles.com"
+        },
+        "review5":{
+            "url": "spikeball.com"
+        }
+    },
+    "Luggage & Bags":{
+        "review1":{
+            "url": "www.parisawang.com"
+        },
+        "review2":{
+            "url":"beistravel.com"
+        },
+        "review3":{
+            "url": "tourparavel.com"
+        },
+        "review4":{
+            "url":"www.rimowa.com/us/en/home"
+        },
+        "review5":{
+            "url": "monos.com"
+        }
+    },
+    "Baby & Toddler":{
+        "review1":{
+            "url": "www.maisonette.com"
+        },
+        "review2":{
+            "url":"www.adenandanais.com"
+        },
+        "review3":{
+            "url": "lovevery.com"
+        },
+        "review4":{
+            "url":"www.burtsbeesbaby.com"
+        },
+        "review5":{
+            "url": "estella-nyc.com"
+        }
+    },
+    "Toys & Games":{
+        "review1":{
+            "url": "lovevery.com"
+        },
+        "review2":{
+            "url":"www.spinmaster.com"
+        },
+        "review3":{
+            "url": "www.shopdisney.com/toys-content"
+        },
+        "review4":{
+            "url":"www.learningresources.com"
+        },
+        "review5":{
+            "url": "www.mattel.com"
+        }
+    },
+    "Shoes":{
+        "review1":{
+            "url": "www.allbirds.com"
+        },
+        "review2":{
+            "url":"rothys.com"
+        },
+        "review3":{
+            "url": "leffot.com"
+        },
+        "review4":{
+            "url":"wolfandshepherd.com"
+        },
+        "review5":{
+            "url": "www.jackerwin.com"
+        }
+    },
+    "Fashion Accessories":{
+        "review1":{
+            "url": "mejuri.com"
+        },
+        "review2":{
+            "url":"www.baublebar.com"
+        },
+        "review3":{
+            "url": "auratenewyork.com"
+        },
+        "review4":{
+            "url":"theoandharris.com"
+        },
+        "review5":{
+            "url": "www.thewatchbox.com"
+        }
+    }
+}
