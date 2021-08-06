@@ -136,7 +136,7 @@ class Term extends Component {
         //this.handleNavigation('manufacturerlisting', selectedStyles)
         
         axios.post("/api/users/stylePress", {
-            gender: 'women',
+            gender: 'NO-women',
             category: option2String,
             style: option3String,
             //stylePicNumber: ['2','5']
@@ -144,6 +144,58 @@ class Term extends Component {
           }).then((res)=>{
             if (res){
                 this.handleNavigation('manufacturerlisting', selectedStyles)
+            }
+          })
+    } else {
+        this.setState({error:"Please select the styles you like ❤️"})
+    }
+  }
+
+  handleSubmitYes = () => {
+    //检查是否勾选了任何style
+    if (this.state.checkedList.includes(true)){
+        this.setState({error:null})
+        var selectedStyles = []
+        //const key = this.state.selectedOption1.value+'-'+this.state.selectedOption2.value+'-'+this.state.selectedOption3.value
+        var allVariableStyles = this.updateStyle(this.state.selectedOption2, this.state.selectedOption3)
+
+        for (var i=0; i<this.state.checkedList.length; i++){
+          if (this.state.checkedList[i]===true) selectedStyles.push(allVariableStyles[i])
+        }
+
+        console.log('selectedStyles: ', selectedStyles)
+        const check = []
+        for (var i=0; i<12; i++){
+          check.push(false) 
+        }
+
+        var option2String = ''
+        var option3String = ''
+        for (var i=0; i<this.state.selectedOption2.length;i++){
+          option2String += ','+this.state.selectedOption2[i].value
+        }
+        for (var i=0; i<this.state.selectedOption3.length;i++){
+          option3String += ','+this.state.selectedOption3[i].value
+        }
+
+        console.log('option2String: ', option2String)
+        console.log('option3String: ', option3String)
+
+        localStorage.setItem('checkedList', check);
+        localStorage.setItem('selectedStyles', selectedStyles)
+        localStorage.setItem('option2', option2String)
+        localStorage.setItem('option3', option3String)
+
+        //this.handleNavigation('manufacturerlisting', selectedStyles)
+        
+        axios.post("/api/users/stylePress", {
+            gender: 'YES-women',
+            category: option2String,
+            style: option3String,
+            stylePicNumber: selectedStyles
+          }).then((res)=>{
+            if (res){
+                //this.handleNavigation('manufacturerlisting', selectedStyles)
             }
           })
     } else {
@@ -442,7 +494,7 @@ class Term extends Component {
                                   marginRight:'15px'
                                 }}
                                 className="btn waves-effect waves-light hoverable accent-3"
-                                //onClick={this.handleSubmit}
+                                onClick={this.handleSubmitYes}
                             >
                               <p>YES</p>
                             </button>
