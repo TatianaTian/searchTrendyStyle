@@ -180,37 +180,37 @@ class Term extends Component {
       ];
 
       const options2 = [
-        { value: 'tops', label: '#Tops' },
-        { value: 'dress', label: '#Dress' },
-        { value: 'two-piece set', label: '#Two-piece Set' },
-        { value: 'jumpsuits/rompers/bodysuit', label: '#Jumpsuits/rompers/bodysuit' },
-        { value: 'blazer', label: '#Blazer' },
-        { value: 'bottoms', label: '#Bottoms' },
-        { value: 'sweaters', label: '#Sweaters' },
-        { value: 'outerwear', label: '#Outerwear' },
-        { value: 'costumes/accessories', label: '#Costumes/accessories' },
-        { value: 'loungewear', label: '#Loungewear' },
-        { value: 'activewear', label: '#Activewear' },
-        { value: 'partywear', label: '#Partywear' },
-        { value: 'beachwear', label: '#Beachwear' },
+        { value: 'tops', label: 'Tops' },
+        { value: 'dress', label: 'Dress' },
+        { value: 'two-piece set', label: 'Two-piece Set' },
+        { value: 'jumpsuits/rompers/bodysuit', label: 'Jumpsuits/rompers/bodysuit' },
+        { value: 'blazer', label: 'Blazer' },
+        { value: 'bottoms', label: 'Bottoms' },
+        { value: 'sweaters', label: 'Sweaters' },
+        { value: 'outerwear', label: 'Outerwear' },
+        { value: 'costumes/accessories', label: 'Costumes/accessories' },
+        { value: 'loungewear', label: 'Loungewear' },
+        { value: 'activewear', label: 'Activewear' },
+        { value: 'partywear', label: 'Partywear' },
+        { value: 'beachwear', label: 'Beachwear' },
       ];
   
       const options3 = [
-        { value: 'sexy', label: '#Sexy' },
-        { value: 'cutout', label: '#Cutout' },
-        { value: 'basics', label: '#Basics' },
-        { value: 'cute', label: '#Cute' },
-        { value: 'floral', label: '#Floral' },
-        { value: 'chic', label: '#Chic' },
-        { value: 'comfy', label: '#Comfy' },
-        { value: 'edgy', label: '#Edgy' },
-        { value: 'family look', label: '#Family look' },
-        { value: 'seamless', label: '#Seamless' },
-        { value: 'bright color', label: '#Bright color' },
-        { value: 'cotton linen', label: '#Cotton linen' },
-        { value: 'tie dye', label: '#Tie dye' },
-        { value: 'prints', label: '#Prints' },
-        { value: 'gen z', label: '#Gen Z' },
+        { value: 'sexy', label: 'Sexy' },
+        { value: 'cutout', label: 'Cutout' },
+        { value: 'basics', label: 'Basics' },
+        { value: 'cute', label: 'Cute' },
+        { value: 'floral', label: 'Floral' },
+        { value: 'chic', label: 'Chic' },
+        { value: 'comfy', label: 'Comfy' },
+        { value: 'edgy', label: 'Edgy' },
+        { value: 'family look', label: 'Family look' },
+        { value: 'seamless', label: 'Seamless' },
+        { value: 'bright color', label: 'Bright color' },
+        { value: 'cotton linen', label: 'Cotton linen' },
+        { value: 'tie dye', label: 'Tie dye' },
+        { value: 'prints', label: 'Prints' },
+        { value: 'gen z', label: 'Gen Z' },
       ];
 
     var allVariableStyles = this.updateStyle(selectedOption2, selectedOption3)
@@ -398,7 +398,7 @@ class Term extends Component {
                       <Grid.Column width={5}/>
                       <Grid.Column width={6}>
                         <div style={{marginTop: 50}} className="navheading center-align">
-                          <h3>Do you want more personalized trendy styles hand-picked by our stylists, <span className="highlight">tailored</span> to your brand and customers? All for <span className="highlight">free</span>!</h3> 
+                          <h3>Do you want <span className="highlight">personalized</span> trendy style inspirations hand-picked by our stylists, <span className="highlight">tailored</span> to your brand and customers? All for <span className="highlight">free</span>!</h3> 
                         </div>
                       </Grid.Column>
                       <Grid.Column width={5}/>
@@ -409,7 +409,7 @@ class Term extends Component {
                       <Grid.Column width={1}/>
                       <Grid.Column width={14}>
                         <div style={{marginTop: 50}} className="navheading center-align">
-                          <h3>Do you want more personalized trendy styles hand-picked by our stylists, <span className="highlight">tailored</span> to your brand and customers? All for <span className="highlight">free</span>!</h3> 
+                          <h3>Do you want <span className="highlight">personalized</span> trendy style inspirations hand-picked by our stylists, <span className="highlight">tailored</span> to your brand and customers? All for <span className="highlight">free</span>!</h3> 
                         </div>
                       </Grid.Column>
                       <Grid.Column width={1}/>
