@@ -29,7 +29,8 @@ class Term extends Component {
         selectedOption1: props.location.state.option1,
         selectedOption2: props.location.state.option2,
         selectedOption3: props.location.state.option3,
-        checkedList: [false, false, false]
+        checkedList: [false, false, false],
+        toggleChecked: true
     };
     //console.log('props: ', props)
   }
@@ -74,6 +75,8 @@ class Term extends Component {
     console.log('newCheckedList: ', newCheckedList)
     this.setState({checkedList: newCheckedList})
   }
+
+  toggle2 = () => this.setState((prevState) => ({ toggleChecked: !prevState.toggleChecked }))
 
   updateStyle = (selectedOption2, selectedOption3) => {
     var allVariableStyles = []
@@ -144,7 +147,7 @@ class Term extends Component {
             }
           })
     } else {
-        this.setState({error:"no styles are selected"})
+        this.setState({error:"Please select the styles you like ❤️"})
     }
   }
 
@@ -161,6 +164,15 @@ class Term extends Component {
     const { defaultOption, unitWeight, quantity, selected, error, price, selectedOption1, selectedOption2, selectedOption3 } = this.state
     
     console.log('checklist: ', this.state.checkedList)
+
+    let newDate = new Date()
+    let date = newDate.getDate();
+    let month = newDate.getMonth() + 1;
+    let year = newDate.getFullYear();
+
+    console.log('date:', date)
+    console.log('month:', month)
+    console.log('year:', year)
 
     const options1 = [
         { value: 'women', label: 'Women' },
@@ -216,14 +228,12 @@ class Term extends Component {
               <Image src={
                   'https://1688imgsearch.s3.amazonaws.com/style_recommendation/'+listing+'.png'
               } wrapped ui={false} />
-              <Card.Content style={{color:'gray'}} >
+              <Card.Content extra >
               {
                   this.state.checkedList[i]?
                   <Icon name='heart' size="large" style={{color: '#ED4956'}}/>
                   : <Icon name='heart outline' size="large" style={{color: '#1b1b1c'}}/>
-              }
-              </Card.Content>
-              <Card.Content extra >
+              } &nbsp; &nbsp;
                   <Checkbox 
                     label='Love the style!'
                     onChange={()=>this.toggle(i)}
@@ -239,14 +249,12 @@ class Term extends Component {
               <Image src={
                   'https://1688imgsearch.s3.amazonaws.com/style_recommendation/'+listing+'.png'
               } wrapped ui={false} />
-              <Card.Content style={{color:'gray'}} >
+              <Card.Content extra >
               {
                   this.state.checkedList[i]?
                   <Icon name='heart' size="large" style={{color: '#ED4956'}}/>
                   : <Icon name='heart outline' size="large" style={{color: '#1b1b1c'}}/>
-              }
-              </Card.Content>
-              <Card.Content extra >
+              } &nbsp; &nbsp;
                   <Checkbox 
                     label='Love the style!'
                     onChange={()=>this.toggle(i)}
@@ -264,9 +272,40 @@ class Term extends Component {
         <>
         <div style={{ backgroundColor: "#FEFDFD", color:'#0c4a34', height:height}}>
         <div className="container" >  
-            <h4 className='heading center h3'> &nbsp; Trendy Styles</h4>
-  
+            <h4 className='heading center h3'> &nbsp; <span className="highlight">Trendy Styles</span></h4>
+            <p className="navheading center" style={{color:"black", marginTop:10}}>Backed by Google Trends Finder and public search data</p>
+            <p className="navheading center" style={{color:"black", marginTop:10}}>Last time update: {year}-{month}-{date}</p>
+
             <div className="desktop-only">
+              {/*
+              <Grid column={3}>
+                <Grid.Column width={5}/>
+                <Grid.Column width={6}>
+                  <Segment className="center-align">
+                    <h3>Get Personalized Recommendation For Free</h3>
+                    <p className="navheading">We could better recommend styles to your store based on <span className="highlight">public trendy style data</span> and <span className="highlight">your store's unique traits</span> in 24 hours <span className="highlight">for free</span>!</p>
+                    <a href="https://i5ljx6kp4i5.typeform.com/to/KReXYXep" target="_blank">
+                      <button
+                          style={{
+                          borderRadius: "5px",
+                          letterSpacing: "1.5px",
+                          //marginTop: "1rem",
+                          fontWeight:'bold',
+                          backgroundColor:'#0c4a34',
+                          color:'white',
+                          height: '40px',
+                          paddingLeft:'16px',
+                          paddingRight:'16px',
+                          }}
+                          className="btn waves-effect waves-light hoverable accent-3"
+                      >
+                      <p>Go</p>
+                      </button>
+                    </a>
+                  </Segment>
+                </Grid.Column>
+                <Grid.Column width={5}/>
+              </Grid> */}
             <Grid column={4}>
               <Grid.Row>
                 <Grid.Column width={3}/>
@@ -325,51 +364,131 @@ class Term extends Component {
               </Grid>
             </div>
 
+              <div className="center">
+                <p className="navheading center" style={{color:"black", marginTop:10}}>Click 'Love the style!' for styles you like and find out how much they might cost to source!</p>
+              </div>
+
               <div style={{width:'120%'}}>
                 <Grid>
                 {styles}
               </Grid>
              </div>
 
-              <Grid columns={3} style={{marginTop:20}}>
-                  <Grid.Column width={1}/>
-                  <Grid.Column width={14}>
+            {/*
+              <Grid columns={3} style={{marginTop:50}}>
+                <Grid.Row>
+                  <Grid.Column width={5}/>
+                  <Grid.Column width={6}>
                       <div className="center-align">
                           <Segment>
-                          <h3 className="navheading" style={{color:'#fa856d'}}>Check where and how much you can source them!</h3>
-                          <p style={{color:'#1b1b1c'}}>Select the trendy styles you like by clicking "love the style!" and proceed to find out their manufacturer source and pricing. You could even place a sample order directly with the manufacturers!</p>
+                          <h3 className="navheading">Check <span className="highlight">where</span> and <span className="highlight">how much</span> you can source these trendy styles <br/> 
+                          <span style={{color:'grey'}}>and</span> <br/>
+                          get <span className="highlight">personalized</span> style recommendation!</h3>
+
                           </Segment>
+                      </div>
+                  </Grid.Column>
+                  <Grid.Column width={5}/>
+                  </Grid.Row>
+            </Grid> 
+            */}
+
+                  <div className="desktop-only">
+                    <Grid column={3} >
+                      <Grid.Column width={5}/>
+                      <Grid.Column width={6}>
+                        <div style={{marginTop: 50}} className="navheading center-align">
+                          <h3>Do you want more personalized trendy styles hand-picked by our stylists, <span className="highlight">tailored</span> to your brand and customers? All for <span className="highlight">free</span>!</h3> 
+                        </div>
+                      </Grid.Column>
+                      <Grid.Column width={5}/>
+                    </Grid>
+                  </div>
+                  <div className="mobile-only">
+                    <Grid column={3} >
+                      <Grid.Column width={1}/>
+                      <Grid.Column width={14}>
+                        <div style={{marginTop: 50}} className="navheading center-align">
+                          <h3>Do you want more personalized trendy styles hand-picked by our stylists, <span className="highlight">tailored</span> to your brand and customers? All for <span className="highlight">free</span>!</h3> 
+                        </div>
+                      </Grid.Column>
+                      <Grid.Column width={1}/>
+                    </Grid>
+                  </div>
+
+                  <div className="center" style={{marginTop:10, marginBottom:20}}>
                           {
                               error?
                               error:
                               null
                           }
                           <br/>
-                          <button
-                              style={{
-                              borderRadius: "5px",
-                              letterSpacing: "1.5px",
-                              //marginTop: "1rem",
-                              fontWeight:'bold',
-                              backgroundColor:'#533eb5',
-                              color:'white',
-                              height: '50px',
-                              paddingLeft:'16px',
-                              paddingRight:'16px',
-                              //marginRight:'8px'
-                              //zIndex: -1
-                              }}
-                              className="btn waves-effect waves-light hoverable accent-3"
-                              onClick={this.handleSubmit}
-                          >
-                          <p>Check where to source</p>
-                          </button>
-                      </div>
-                  </Grid.Column>
-                  <Grid.Column width={1}/>
-              </Grid>
-              <div style={{height:200}}>
 
+                          {
+                            this.state.checkedList.includes(true)?
+                            <a href="https://i5ljx6kp4i5.typeform.com/to/KReXYXep" target="_blank">
+                            <button
+                                style={{
+                                  borderRadius: "5px",
+                                  letterSpacing: "1.5px",
+                                  marginTop: "0rem",
+                                  fontWeight:'bold',
+                                  backgroundColor:'#0c4a34',
+                                  color:'white',
+                                  height: '50px',
+                                  paddingLeft:'16px',
+                                  paddingRight:'16px',
+                                  width:'80px',
+                                  marginRight:'15px'
+                                }}
+                                className="btn waves-effect waves-light hoverable accent-3"
+                                //onClick={this.handleSubmit}
+                            >
+                              <p>YES</p>
+                            </button>
+                            </a>:
+                            <button
+                                style={{
+                                  borderRadius: "5px",
+                                  letterSpacing: "1.5px",
+                                  marginTop: "0rem",
+                                  fontWeight:'bold',
+                                  backgroundColor:'#0c4a34',
+                                  color:'white',
+                                  height: '50px',
+                                  paddingLeft:'16px',
+                                  paddingRight:'16px',
+                                  width:'80px',
+                                  marginRight:'15px'
+                                }}
+                                className="btn waves-effect waves-light hoverable accent-3"
+                                onClick={this.handleSubmit}
+                            >
+                              <p>YES</p>
+                            </button>    
+                              }
+
+                              <button
+                                style={{
+                                  borderRadius: "5px",
+                                  letterSpacing: "1.5px",
+                                  marginTop: "0rem",
+                                  fontWeight:'bold',
+                                  backgroundColor:'#989898',
+                                  color:'white',
+                                  height: '50px',
+                                  paddingLeft:'16px',
+                                  paddingRight:'16px',
+                                  marginLeft:'15px',
+                                  width:'80px'
+                                }}
+                                className="btn waves-effect waves-light hoverable accent-3"
+                                onClick={this.handleSubmit}
+                            >
+                              <p>NO</p>
+                            </button>
+                      </div>
+              <div style={{height:200}}>
               </div>
         </div>
         </div>

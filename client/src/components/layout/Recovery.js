@@ -118,7 +118,7 @@ class Recovery extends Component {
     console.log('name: ', name)
     console.log('email: ', email)
     // 检查是否输入店名和邮箱
-    if (name === null) this.setState({error:'please enter your brand name'})
+    if (name === null) this.setState({error:'please enter your store link'})
     else if (!validator.validate(email)) this.setState({error:'please enter a valid email address'})
     // 检查是否勾选了任何工厂货
     else if (!this.state.checkedList.includes(true)) this.setState({error:'no manufacturers are selected'})
@@ -263,7 +263,7 @@ class Recovery extends Component {
       <Grid>
         <Grid.Column width={3}>
           <div className="center-align">
-            <p className="navheading">🔥 Selected trendy styles</p>
+            <h3 className="navheading">🔥 Trendy styles you selected</h3>
           </div>
           <Step.Group vertical>
             {step_navigation}
@@ -271,7 +271,8 @@ class Recovery extends Component {
         </Grid.Column>
         <Grid.Column width={13}>
           <div className="center-align">
-            <p className="navheading">Product listings from source manufacturers</p>
+            <h3 className="navheading">Same or similar products from manufacturers</h3>
+            <p className="navheading"></p>
           </div>
           <Grid>
             {manufacturer_listings}
@@ -285,14 +286,8 @@ class Recovery extends Component {
             <Grid.Column width={10}>
             <div className="center-align">
             <Segment>
-                <h3 className="navheading" style={{color:'#fa856d'}}>Receive full product details within 24 hours</h3>
+                <h3 className="navheading" style={{}}>Receive full product details within 24 hours</h3>
                 <p>If you’d like to learn more about any of the products or buy a sample directly from the manufacturers, simply tell us your brand name and your email address. You will receive a personalized link to directly view the products and place orders. Believe it or not, you can start selling in 2 weeks! 
-                </p>
-                <h3 className="navheading" style={{color:'#fa856d'}}>Love our tool and got more styles to source? </h3>
-                <p>You can find products to source through pictures just as easily as what you saw. Upload a picture to find similar or same styles to source here. 
-                <br/><a href="https://www.vicgarments.com/" target="_blank">The tool is here.</a></p>
-                <h3 className="navheading" style={{color:'#fa856d'}}>Stay in touch for feature updates </h3>
-                <p>We are launching a new feature that helps you decide what to source based on your unique store profile and customer characteristics, which can improve your sales by 40%! Sign up to become the first users once we launch the feature.
                 </p>
             </Segment>
             {
@@ -303,7 +298,7 @@ class Recovery extends Component {
               <Form>
                 <Form.Group unstackable widths={2}>
                   <Form.Input
-                    placeholder='Brand Name'
+                    placeholder='Store Link'
                     name='name' 
                     value={name}
                     onChange={this.handleChange}
@@ -394,7 +389,7 @@ class Recovery extends Component {
       }
 
           <div className="center-align navheading" style={{marginTop:30, width:'70%', marginLeft:'15%'}}>
-            <p className="navheading">Product listings from source manufacturers</p>
+            <p className="navheading">Same or similar products from manufacturers</p>
             {manufacturer_listings}
           </div>     
 
@@ -403,13 +398,9 @@ class Recovery extends Component {
             <Grid.Column width={14}>
             <div className="center-align">
             <Segment>
-                <h3 className="navheading" style={{color:'#fa856d'}}>Receive full product info within 24 hours</h3>
-                <p>If you'd like to learn more about any of the products or even buy a sample from the source manufacturers, simply check 
-                  "Request full product info", tell us your brand name and email address, and click "Submit"! We will get back to you with 
-                  full product info in 24 hours.
+                <h3 className="navheading" style={{}}>Receive full product details within 24 hours</h3>
+                <p>If you’d like to learn more about any of the products or buy a sample directly from the manufacturers, simply tell us your brand name and your email address. You will receive a personalized link to directly view the products and place orders. Believe it or not, you can start selling in 2 weeks! 
                 </p>
-                <h3 className="navheading" style={{color:'#fa856d'}}>Want to find the manufacture source of your own styles?</h3>
-                <p>We provide a tool to automatically search for the source manufacturers for your own uploaded styles! <br/><a href="https://www.vicgarments.com/">The tool is here.</a></p>
             </Segment>
             {
               this.state.submitted?
@@ -419,7 +410,7 @@ class Recovery extends Component {
               <Form>
                 <Form.Group widths={1}>
                   <Form.Input
-                    placeholder='Brand Name'
+                    placeholder='Store Link'
                     name='name' 
                     value={name}
                     onChange={this.handleChange}

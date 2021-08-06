@@ -183,37 +183,37 @@ class Landing extends Component {
     
 
     const options2 = [
-      { value: 'tops', label: '#Tops' },
-      { value: 'dress', label: '#Dress' },
-      { value: 'two-piece set', label: '#Two-piece Set' },
-      { value: 'jumpsuits/rompers/bodysuit', label: '#Jumpsuits/rompers/bodysuit' },
-      { value: 'blazer', label: '#Blazer' },
-      { value: 'bottoms', label: '#Bottoms' },
-      { value: 'sweaters', label: '#Sweaters' },
-      { value: 'outerwear', label: '#Outerwear' },
-      { value: 'costumes/accessories', label: '#Costumes/accessories' },
-      { value: 'loungewear', label: '#Loungewear' },
-      { value: 'activewear', label: '#Activewear' },
-      { value: 'partywear', label: '#Partywear' },
-      { value: 'beachwear', label: '#Beachwear' },
+      { value: 'tops', label: 'Tops' },
+      { value: 'dress', label: 'Dress' },
+      { value: 'two-piece set', label: 'Two-piece Set' },
+      { value: 'jumpsuits/rompers/bodysuit', label: 'Jumpsuits/rompers/bodysuit' },
+      { value: 'blazer', label: 'Blazer' },
+      { value: 'bottoms', label: 'Bottoms' },
+      { value: 'sweaters', label: 'Sweaters' },
+      { value: 'outerwear', label: 'Outerwear' },
+      { value: 'costumes/accessories', label: 'Costumes/accessories' },
+      { value: 'loungewear', label: 'Loungewear' },
+      { value: 'activewear', label: 'Activewear' },
+      { value: 'partywear', label: 'Partywear' },
+      { value: 'beachwear', label: 'Beachwear' },
     ];
 
     const options3 = [
-      { value: 'sexy', label: '#Sexy' },
-      { value: 'cutout', label: '#Cutout' },
-      { value: 'basics', label: '#Basics' },
-      { value: 'cute', label: '#Cute' },
-      { value: 'floral', label: '#Floral' },
-      { value: 'chic', label: '#Chic' },
-      { value: 'comfy', label: '#Comfy' },
-      { value: 'edgy', label: '#Edgy' },
-      { value: 'family look', label: '#Family look' },
-      { value: 'seamless', label: '#Seamless' },
-      { value: 'bright color', label: '#Bright color' },
-      { value: 'cotton linen', label: '#Cotton linen' },
-      { value: 'tie dye', label: '#Tie dye' },
-      { value: 'prints', label: '#Prints' },
-      { value: 'gen z', label: '#Gen Z' },
+      { value: 'sexy', label: 'Sexy' },
+      { value: 'cutout', label: 'Cutout' },
+      { value: 'basics', label: 'Basics' },
+      { value: 'cute', label: 'Cute' },
+      { value: 'floral', label: 'Floral' },
+      { value: 'chic', label: 'Chic' },
+      { value: 'comfy', label: 'Comfy' },
+      { value: 'edgy', label: 'Edgy' },
+      { value: 'family look', label: 'Family look' },
+      { value: 'seamless', label: 'Seamless' },
+      { value: 'bright color', label: 'Bright color' },
+      { value: 'cotton linen', label: 'Cotton linen' },
+      { value: 'tie dye', label: 'Tie dye' },
+      { value: 'prints', label: 'Prints' },
+      { value: 'gen z', label: 'Gen Z' },
     ];
 
     const customStyles = {
@@ -228,6 +228,15 @@ class Landing extends Component {
         return { ...provided, opacity, transition };
       }
     }
+
+    let newDate = new Date()
+    let date = newDate.getDate();
+    let month = newDate.getMonth() + 1;
+    let year = newDate.getFullYear();
+
+    console.log('date:', date)
+    console.log('month:', month)
+    console.log('year:', year)
 
     
 
@@ -254,12 +263,12 @@ class Landing extends Component {
             <Grid.Row>
               <Grid.Column width={3} style={{}}/>
               <Grid.Column width={10} style={{}}>
-                <h1 className="heading h1" style={{lineHeight:"1.25", color:'white'}}>Get ahead of what your customer really wants and source the right products from manufacturers in 2 weeks</h1>
-                <p className="navheading" style={{color:"white", marginTop:10}}>last time update: 2021-8-2</p>
+                <h1 className="heading h1" style={{lineHeight:"1.25", color:'white'}}>Get ahead of what your customers really want</h1>
+                <p className="navheading" style={{color:"white", marginTop:10}}>Last time update: {year}-{month}-{date}</p>
                 <Grid.Row>
                   <Grid.Column width={6}/>
                   <Grid.Column width={4}>
-                    <p className="navheading h3" style={{color:"white", marginTop:60}}>the most accurate fashion trends backed by big data in real time</p>
+                    <p className="navheading h3" style={{color:"white", marginTop:60}}>The most accurate fashion trends backed by big data in real time</p>
                   </Grid.Column>
                   <Grid.Column width={6}/>
                 </Grid.Row>
@@ -267,7 +276,7 @@ class Landing extends Component {
                   <Grid.Column width={2}/>
                   <Grid.Column width={6}>
                     <Select
-                      placeholder='Trendy category'
+                      placeholder='Fashion category'
                       isMulti
                       className="basic-multi-select"
                       classNamePrefix="select"
@@ -277,7 +286,7 @@ class Landing extends Component {
                   </Grid.Column> 
                   <Grid.Column width={6}>
                     <Select
-                      placeholder="Trendy style"
+                      placeholder="Your store style"
                       isMulti
                       className="basic-multi-select"
                       classNamePrefix="select"
@@ -313,7 +322,7 @@ class Landing extends Component {
                         className="btn waves-effect waves-light hoverable accent-3"
                         onClick={this.handleSubmit}
                     >
-                        <p>Search trendy styles</p>
+                        <p>See what's trendy today</p>
                     </button>
                   </div>
                   </Grid.Column>
@@ -359,7 +368,7 @@ class Landing extends Component {
       <div style={{ 
         backgroundImage: `url("https://1688imgsearch.s3.amazonaws.com/ins_background.png")`,
         width:'100%',
-        height:0.6*height,
+        height:0.4*height,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -368,7 +377,7 @@ class Landing extends Component {
         <div style={{
           backgroundColor:'rgba(0,0,0,0.2)',    
           width:'100%',
-          height:0.6*height,
+          height:0.4*height,
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -378,8 +387,8 @@ class Landing extends Component {
             <Grid.Row>
               <Grid.Column width={1} style={{}}/>
               <Grid.Column width={14} style={{}}>
-                <h1 className="heading h1" style={{lineHeight:"1.25", color:'white'}}>Get ahead of what your customer really wants and source the right products from manufacturers in 2 weeks</h1>
-                <p className="navheading" style={{color:"white", marginTop:10}}>last time update: 2021-8-2</p>
+                <h1 className="heading h1" style={{lineHeight:"1.25", color:'white'}}>Get ahead of what your customers really want</h1>
+                <p className="navheading" style={{color:"white", marginTop:10}}>Last time update: {year}-{month}-{date}</p>
 
               </Grid.Column>
               <Grid.Column width={1}/>
@@ -389,7 +398,7 @@ class Landing extends Component {
         </div>
       </div>
 
-              <div className="center-align" style={{zIndex:1}}>
+              <div className="center-align" style={{zIndex:1, marginTop: 20}}>
                 <Grid column={3} style={{zIndex:9999}}>
                   <Grid.Column width={2}/>
                   <Grid.Column width={12}>
@@ -450,18 +459,18 @@ class Landing extends Component {
             <Grid>
               <Grid.Row>
                 <Grid.Column width={5} style={{paddingLeft:'25px'}}>
-                  <p className="navheading" style={{color:"white"}}>Menu</p>
-                  <p><a href="https://products.vicgarments.com/pages/contact-us" style={{color:"#CCD4D2"}}>Contact Us</a></p>
-                  <p><a href="https://products.vicgarments.com/policies/privacy-policy" style={{color:"#CCD4D2"}}>Privacy Policy</a></p>
-                  <p><a href="https://products.vicgarments.com/policies/terms-of-service" style={{color:"#CCD4D2"}}>Terms of Service</a></p>
+                  <p className="navheading" style={{color:"#1b1b1c"}}>Menu</p>
+                  <p><a href="https://products.vicgarments.com/pages/contact-us" style={{color:"#1b1b1c"}}>Contact Us</a></p>
+                  <p><a href="https://products.vicgarments.com/policies/privacy-policy" style={{color:"#1b1b1c"}}>Privacy Policy</a></p>
+                  <p><a href="https://products.vicgarments.com/policies/terms-of-service" style={{color:"#1b1b1c"}}>Terms of Service</a></p>
                   </Grid.Column>
                 <Grid.Column width={5}>
-                  <p className="navheading" style={{color:"white"}}>Contact Us</p>
-                  <p style={{color:"#CCD4D2"}}>+1 919 808 6370</p>
-                  <p style={{color:"#CCD4D2"}}>ziqi@vicgarments.com</p>
+                  <p className="navheading" style={{color:"#1b1b1c"}}>Contact Us</p>
+                  <p style={{color:"#1b1b1c"}}>+1 919 808 6370</p>
+                  <p style={{color:"#1b1b1c"}}>ziqi@vicgarments.com</p>
                 </Grid.Column>
                 <Grid.Column width={6}>
-                  <p className="navheading" style={{color:"white"}}>We Accept</p>
+                  <p className="navheading" style={{color:"#1b1b1c"}}>We Accept</p>
                   <img src={process.env.PUBLIC_URL + '/payment.png'} alt='payment' style={{width:'80%'}}/>
                 </Grid.Column>
               </Grid.Row>
