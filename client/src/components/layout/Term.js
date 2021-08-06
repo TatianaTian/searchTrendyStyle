@@ -478,7 +478,7 @@ class Term extends Component {
 
                           {
                             this.state.checkedList.includes(true)?
-                            <a href="https://i5ljx6kp4i5.typeform.com/to/KReXYXep" target="_blank">
+                            <a href="https://i5ljx6kp4i5.typeform.com/to/KReXYXep">
                             <button
                                 style={{
                                   borderRadius: "5px",
