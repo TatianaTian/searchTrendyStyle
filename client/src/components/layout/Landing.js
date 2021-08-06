@@ -336,11 +336,10 @@ class Landing extends Component {
                   <p><a href="https://products.vicgarments.com/pages/contact-us" style={{color:"#1b1b1c"}}>Contact Us</a></p>
                   <p><a href="https://products.vicgarments.com/policies/privacy-policy" style={{color:"#1b1b1c"}}>Privacy Policy</a></p>
                   <p><a href="https://products.vicgarments.com/policies/terms-of-service" style={{color:"#1b1b1c"}}>Terms of Service</a></p>
-                  <p><a href="https://products.vicgarments.com/pages/faqs" style={{color:"#1b1b1c"}}>FAQs</a></p>
                   </Grid.Column>
                 <Grid.Column width={5}>
                   <p className="navheading" style={{color:"1b1b1c"}}>Contact Us</p>
-                  <p style={{color:"#1b1b1c"}}>+1 984 244 9682</p>
+                  <p style={{color:"#1b1b1c"}}>+1 919 808 6370</p>
                   <p style={{color:"#1b1b1c"}}>ziqi@vicgarments.com</p>
                 </Grid.Column>
                 <Grid.Column width={5}>
@@ -455,11 +454,10 @@ class Landing extends Component {
                   <p><a href="https://products.vicgarments.com/pages/contact-us" style={{color:"#CCD4D2"}}>Contact Us</a></p>
                   <p><a href="https://products.vicgarments.com/policies/privacy-policy" style={{color:"#CCD4D2"}}>Privacy Policy</a></p>
                   <p><a href="https://products.vicgarments.com/policies/terms-of-service" style={{color:"#CCD4D2"}}>Terms of Service</a></p>
-                  <p><a href="https://products.vicgarments.com/pages/faqs" style={{color:"#CCD4D2"}}>FAQs</a></p>
                   </Grid.Column>
                 <Grid.Column width={5}>
                   <p className="navheading" style={{color:"white"}}>Contact Us</p>
-                  <p style={{color:"#CCD4D2"}}>+1 984 244 9682</p>
+                  <p style={{color:"#CCD4D2"}}>+1 919 808 6370</p>
                   <p style={{color:"#CCD4D2"}}>ziqi@vicgarments.com</p>
                 </Grid.Column>
                 <Grid.Column width={6}>

@@ -190,7 +190,7 @@ class Recovery extends Component {
       const j = i+1
       if (j === this.state.current_style){
         return <>
-        <a href={"https://trendy-suggest-landing.herokuapp.com/manufacturerlisting?style="+j}>
+        <a href={"https://www.whatspopulartoday.com/manufacturerlisting?style="+j}>
         <Step active>
           <Step.Content>
             <Image 
@@ -205,7 +205,7 @@ class Recovery extends Component {
       </>
       } else {
         return <>
-        <a href={"https://trendy-suggest-landing.herokuapp.com/manufacturerlisting?style="+j}>
+        <a href={"https://www.whatspopulartoday.com/manufacturerlisting?style="+j}>
         <Step>
           <Step.Content>
             <Image 
@@ -285,13 +285,15 @@ class Recovery extends Component {
             <Grid.Column width={10}>
             <div className="center-align">
             <Segment>
-                <h3 className="navheading" style={{color:'#fa856d'}}>Receive full product info within 24 hours</h3>
-                <p>If you'd like to learn more about any of the products or buy a sample from the source manufacturers, simply check 
-                  "Request full product info", tell us your brand name and email address, and click "Submit"! We will get back to you with 
-                  full product info with a sample purchaseable link in 24 hours.
+                <h3 className="navheading" style={{color:'#fa856d'}}>Receive full product details within 24 hours</h3>
+                <p>If you’d like to learn more about any of the products or buy a sample directly from the manufacturers, simply tell us your brand name and your email address. You will receive a personalized link to directly view the products and place orders. Believe it or not, you can start selling in 2 weeks! 
                 </p>
-                <h3 className="navheading" style={{color:'#fa856d'}}>Want to find the manufacture source of your own styles?</h3>
-                <p>We provide a tool to automatically search for the source manufacturers for your own uploaded styles! <br/>The tool is here.</p>
+                <h3 className="navheading" style={{color:'#fa856d'}}>Love our tool and got more styles to source? </h3>
+                <p>You can find products to source through pictures just as easily as what you saw. Upload a picture to find similar or same styles to source here. 
+                <br/><a href="https://www.vicgarments.com/" target="_blank">The tool is here.</a></p>
+                <h3 className="navheading" style={{color:'#fa856d'}}>Stay in touch for feature updates </h3>
+                <p>We are launching a new feature that helps you decide what to source based on your unique store profile and customer characteristics, which can improve your sales by 40%! Sign up to become the first users once we launch the feature.
+                </p>
             </Segment>
             {
               this.state.submitted?
