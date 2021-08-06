@@ -142,7 +142,7 @@ class Recovery extends Component {
       }
 
       axios.post("/api/users/mfrPress", {
-        gender: this.state.selectedOption1,
+        gender: 'women',
         category: this.state.selectedOption2,
         style: this.state.selectedOption3,
         stylePicNumber: this.state.selected_styles,
