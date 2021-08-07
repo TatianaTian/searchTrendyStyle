@@ -133,6 +133,8 @@ class Landing extends Component {
         option3String += ','+this.state.selectedOption3[i].value
       }
       
+      this.handleNavigation('trendystyles')
+      {/*
       axios.post("/api/users/landingPress", {
         gender: 'women',
         category: option2String,
@@ -141,7 +143,7 @@ class Landing extends Component {
         if (res){
           this.handleNavigation('trendystyles')
         }
-      })
+      })*/}
       
     }
   }

@@ -490,33 +490,34 @@ class Term extends Component {
                                   height: '50px',
                                   paddingLeft:'16px',
                                   paddingRight:'16px',
-                                  width:'80px',
+                                  width:'180px',
                                   marginRight:'15px'
                                 }}
                                 className="btn waves-effect waves-light hoverable accent-3"
                                 onClick={this.handleSubmitYes}
                             >
-                              <p>YES</p>
+                              <p>YES:Fill a 4-question form</p>
                             </button>
                             </a>:
                             <button
                                 style={{
                                   borderRadius: "5px",
                                   letterSpacing: "1.5px",
-                                  marginTop: "0rem",
+                                  marginTop: "1rem",
                                   fontWeight:'bold',
                                   backgroundColor:'#0c4a34',
                                   color:'white',
                                   height: '50px',
                                   paddingLeft:'16px',
                                   paddingRight:'16px',
-                                  width:'80px',
+                                  width:'180px',
+                                  marginLeft:'15px',
                                   marginRight:'15px'
                                 }}
                                 className="btn waves-effect waves-light hoverable accent-3"
                                 onClick={this.handleSubmit}
                             >
-                              <p>YES</p>
+                              <p>YES:Fill a 4-question form</p>
                             </button>    
                               }
 
@@ -524,7 +525,7 @@ class Term extends Component {
                                 style={{
                                   borderRadius: "5px",
                                   letterSpacing: "1.5px",
-                                  marginTop: "0rem",
+                                  marginTop: "1rem",
                                   fontWeight:'bold',
                                   backgroundColor:'#989898',
                                   color:'white',
@@ -532,12 +533,13 @@ class Term extends Component {
                                   paddingLeft:'16px',
                                   paddingRight:'16px',
                                   marginLeft:'15px',
-                                  width:'80px'
+                                  marginRight:'15px',
+                                  width:'180px'
                                 }}
                                 className="btn waves-effect waves-light hoverable accent-3"
                                 onClick={this.handleSubmit}
                             >
-                              <p>NO</p>
+                              <p>NO:Skip personalization</p>
                             </button>
                       </div>
               <div style={{height:200}}>
