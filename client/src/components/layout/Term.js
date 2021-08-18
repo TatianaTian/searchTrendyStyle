@@ -423,7 +423,7 @@ class Term extends Component {
                                   justifyContent: "center",
                                   alignItems: "center",
                           }}>
-                    <p className="left-align h5" style={{color:"black", marginTop:0}}>Latest Study found that additional market intelligence data alongside online sellers' own storefront data helps them choose better products to sell, which leads to 40% growth in sales.</p>
+                    <p className="left-align h5" style={{color:"black", marginTop:0}}><a href="https://sites.duke.edu/tianchengchen/files/2020/12/jmp_tc.pdf" target="_blank" style={{color:'#4b3cf0', fontWeight:'900'}}><u>Latest Study</u></a> found that additional market intelligence data alongside online sellers' own storefront data helps them choose better products to sell, which leads to 40% growth in sales.</p>
                   </Grid.Column>
                   <Grid.Column width={2}/>
                 </Grid>
@@ -439,7 +439,7 @@ class Term extends Component {
                                   justifyContent: "center",
                                   alignItems: "center",
                           }}>
-                    <p className="left-align h5" style={{color:"black", marginTop:0}}>Fashion brands leverage our service when making sourcing decisions, effectively improving new product launch performance. 95% of users come back at least once. </p>
+                    <p className="left-align h5" style={{color:"black", marginTop:0}}>Fashion brands leverage our service when making sourcing decisions, effectively improving new product launch performance. <span style={{color:'#4b3cf0', fontWeight:'900'}}>95%</span> of users come back at least once. </p>
                   </Grid.Column>
                   <Grid.Column width={2}/>
                 </Grid>
@@ -514,7 +514,7 @@ class Term extends Component {
               <Grid.Column width={1}/>
               <Grid.Column width={14}>
                 <p className="heading" style={{color:'#4b3cf0', fontSize:70}}>40%</p>
-                <p className="left-align h5" style={{color:"black", marginTop:-50}}>Latest Study found that additional market intelligence data alongside online sellers' own storefront data helps them choose better products to sell, which leads to 40% growth in sales.</p>
+                <p className="left-align h5" style={{color:"black", marginTop:-50}}><span style={{color:'#4b3cf0'}}>Latest Study</span> found that additional market intelligence data alongside online sellers' own storefront data helps them choose better products to sell, which leads to 40% growth in sales.</p>
                 <p className="heading" style={{color:'#4b3cf0', fontSize:70}}>1k+</p>
                 <p className="left-align h5" style={{color:"black", marginTop:-50}}>Fashion brands leverage our service when making sourcing decisions, effectively improving new product launch performance. 95% of users come back at least once. </p>
               </Grid.Column>
@@ -681,6 +681,26 @@ class Term extends Component {
                               <p><span className="h5 navheading" style={{fontWeight:'900'}}>NO</span><br/>Find out how much these might cost to source</p>
                             </button>
                       </div>
+                      <div className="center desktop-only" style={{marginTop:60}}>
+                        <Grid Columns={3}>
+                          <Grid.Column width={4}/>
+                          <Grid.Column width={8}>
+                            <p className="navheading" style={{color:'black'}}>We protect your data! You decide what you want to share with us and we won't disclose your store information to any third parties. You can read more about our privacy policy or contact ziqi@vicgarments.com if you have any questions </p>
+                          </Grid.Column>
+                          <Grid.Column width={4}/>
+                        </Grid>
+                      </div>
+
+                      <div className="center mobile-only" style={{marginTop:60}}>
+                        <Grid Columns={3}>
+                          <Grid.Column width={2}/>
+                          <Grid.Column width={12}>
+                            <p className="navheading" style={{color:'black'}}>We protect your data! You decide what you want to share with us and we won't disclose your store information to any third parties. You can read more about our privacy policy or contact ziqi@vicgarments.com if you have any questions </p>
+                          </Grid.Column>
+                          <Grid.Column width={2}/>
+                        </Grid>
+                      </div>
+
               <div style={{height:200}}>
               </div>
         </div>
