@@ -315,7 +315,7 @@ class Term extends Component {
               </Card.Content>
             </Card>
   
-        </div>
+        </div> 
           </> 
         )
       })  
@@ -324,40 +324,11 @@ class Term extends Component {
         <>
         <div style={{ backgroundColor: "#FEFDFD", color:'#0c4a34', height:height}}>
         <div className="container" >  
-            <h4 className='heading center h3'> &nbsp; <span className="highlight">Trendy Styles</span></h4>
+            <h4 className='heading center h3' style={{color:'black'}}> &nbsp; <span className="highlight2">Trendy Styles</span></h4>
             <p className="navheading center" style={{color:"black", marginTop:10}}>Backed by Google Trends Finder and public search data</p>
             <p className="navheading center" style={{color:"black", marginTop:10}}>Last time update: {year}-{month}-{date}</p>
 
             <div className="desktop-only">
-              {/*
-              <Grid column={3}>
-                <Grid.Column width={5}/>
-                <Grid.Column width={6}>
-                  <Segment className="center-align">
-                    <h3>Get Personalized Recommendation For Free</h3>
-                    <p className="navheading">We could better recommend styles to your store based on <span className="highlight">public trendy style data</span> and <span className="highlight">your store's unique traits</span> in 24 hours <span className="highlight">for free</span>!</p>
-                    <a href="https://i5ljx6kp4i5.typeform.com/to/KReXYXep" target="_blank">
-                      <button
-                          style={{
-                          borderRadius: "5px",
-                          letterSpacing: "1.5px",
-                          //marginTop: "1rem",
-                          fontWeight:'bold',
-                          backgroundColor:'#0c4a34',
-                          color:'white',
-                          height: '40px',
-                          paddingLeft:'16px',
-                          paddingRight:'16px',
-                          }}
-                          className="btn waves-effect waves-light hoverable accent-3"
-                      >
-                      <p>Go</p>
-                      </button>
-                    </a>
-                  </Segment>
-                </Grid.Column>
-                <Grid.Column width={5}/>
-              </Grid> */}
             <Grid column={4}>
               <Grid.Row>
                 <Grid.Column width={3}/>
@@ -384,7 +355,8 @@ class Term extends Component {
                 </Grid.Column>
                 <Grid.Column width={3}/>
               </Grid.Row>
-            </Grid>
+            </Grid> 
+
             </div>
 
             <div className="mobile-only">
@@ -425,6 +397,171 @@ class Term extends Component {
                 {styles}
               </Grid>
              </div>
+            </div>
+
+          <div className="center desktop-only" style={{marginTop:0}}>
+            <Grid columns={3}>
+              <Grid.Column width={4}/>
+              <Grid.Column width={8}>
+                <p className="heading h3" style={{color:"black", marginTop:60}}>Do you want more <span className="highlight">personalized</span> style suggestions hand-picked by our stylists? They are tailored to your brand and customers.
+                <br/><span className="highlight" style={{color:'#4b3cf0'}}>And for free!</span></p>
+              </Grid.Column>
+              <Grid.Column width={4}/>
+            </Grid>
+
+            <Grid columns={3} style={{backgroundColor:'#FCAE9E', marginTop:30, paddingBottom:20, paddingTop:20}}>
+              <Grid.Column width={2}/>
+              <Grid.Column width={12}>
+                <Grid columns={4}>
+                  <Grid.Column width={2}/>
+                  <Grid.Column width={3}>
+                    <p className="heading" style={{color:'#4b3cf0', fontSize:70}}>40%</p>
+                  </Grid.Column>
+                  <Grid.Column width={9}
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center",
+                          }}>
+                    <p className="left-align h5" style={{color:"black", marginTop:0}}>Latest Study found that additional market intelligence data alongside online sellers' own storefront data helps them choose better products to sell, which leads to 40% growth in sales.</p>
+                  </Grid.Column>
+                  <Grid.Column width={2}/>
+                </Grid>
+
+                <Grid columns={4}>
+                  <Grid.Column width={2}/>
+                  <Grid.Column width={3}>
+                    <p className="heading" style={{color:'#4b3cf0', fontSize:70}}>1k+</p>
+                  </Grid.Column>
+                  <Grid.Column width={9}
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center",
+                          }}>
+                    <p className="left-align h5" style={{color:"black", marginTop:0}}>Fashion brands leverage our service when making sourcing decisions, effectively improving new product launch performance. 95% of users come back at least once. </p>
+                  </Grid.Column>
+                  <Grid.Column width={2}/>
+                </Grid>
+              </Grid.Column>
+              <Grid.Column width={2}/>
+            </Grid>
+
+            <Grid columns={3} style={{marginTop:30, paddingBottom:20, paddingTop:20}}>
+              <Grid.Column width={2}/>
+              <Grid.Column width={12} >
+                <Grid columns={6}>
+                  <Grid.Column width={2}/>
+                  <Grid.Column width={3}>
+                    <img src={process.env.PUBLIC_URL + '/test_logo1.png'} alt='payment' style={{width:'30%'}}/>
+                    <p className="navheading" style={{fontWeight:'900'}}>@_ztstyle_</p>
+                  </Grid.Column>
+                  <Grid.Column width={1}>
+                    <span style={{fontSize:30}}>❝</span>
+                  </Grid.Column>
+                  <Grid.Column width={8} 
+                    style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                    }}>
+                    <p className="left-align h5" style={{color:"black"}}>In the past, I made my product sourcing decisions simply through internet browsing and personal preferences... I love working with whatspopulartoday! They really help elevate my new product sourcing game. They seem to understand what my customers want better than I do!</p>
+                  </Grid.Column>
+                  <Grid.Column width={1}>
+                    <span style={{fontSize:30}}>❞</span>
+                  </Grid.Column>
+                  <Grid.Column width={1}/>
+                </Grid>
+
+                <Grid columns={4}>
+                  <Grid.Column width={2}/>
+                  <Grid.Column width={3}>
+                    <img src={process.env.PUBLIC_URL + '/test_logo2.png'} alt='payment' style={{width:'30%'}}/>
+                    <p className="navheading" style={{fontWeight:'900'}}>@elariaboutique</p>
+                  </Grid.Column>
+                  <Grid.Column width={1}>
+                    <span style={{fontSize:30}}>❝</span>
+                  </Grid.Column>
+                  <Grid.Column width={8}
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                  }}>
+                    <p className="left-align h5" style={{color:"black", marginTop:30}}>I'd recommend whatspopulartoday to any independent boutique stores or brand owners! There's simply no better place to start your new product sourcing.</p>
+                  </Grid.Column>
+                  <Grid.Column width={1}>
+                    <span style={{fontSize:30}}>❞</span>
+                  </Grid.Column>
+                  <Grid.Column width={1}/>
+                </Grid>
+              </Grid.Column>
+              <Grid.Column width={2}/>
+            </Grid>
+          </div>
+
+          <div className="center mobile-only" style={{marginTop:0, marginBottom:-50}}>
+            <Grid columns={3}>
+              <Grid.Column width={1}/>
+              <Grid.Column width={14}>
+                <p className="heading h3" style={{color:"black", marginTop:60}}>Do you want more <span className="highlight">personalized</span> style suggestions hand-picked by our stylists? They are tailored to your brand and customers.
+                <br/><span className="highlight" style={{color:'#4b3cf0'}}>And for free!</span></p>
+              </Grid.Column>
+              <Grid.Column width={1}/>
+            </Grid>
+
+            <Grid columns={3} style={{backgroundColor:'#FCAE9E', marginTop:30, paddingBottom:20, paddingTop:20}}>
+              <Grid.Column width={1}/>
+              <Grid.Column width={14}>
+                <p className="heading" style={{color:'#4b3cf0', fontSize:70}}>40%</p>
+                <p className="left-align h5" style={{color:"black", marginTop:-50}}>Latest Study found that additional market intelligence data alongside online sellers' own storefront data helps them choose better products to sell, which leads to 40% growth in sales.</p>
+                <p className="heading" style={{color:'#4b3cf0', fontSize:70}}>1k+</p>
+                <p className="left-align h5" style={{color:"black", marginTop:-50}}>Fashion brands leverage our service when making sourcing decisions, effectively improving new product launch performance. 95% of users come back at least once. </p>
+              </Grid.Column>
+              <Grid.Column width={2}/>
+            </Grid>
+
+            <Grid columns={3} style={{marginTop:30, paddingBottom:20, paddingTop:20}}>
+              <Grid.Column width={1}/>
+              <Grid.Column width={14} >
+                    <img src={process.env.PUBLIC_URL + '/test_logo1.png'} alt='payment' style={{width:'30%'}}/>
+                    <p className="navheading" style={{fontWeight:'900'}}>@_ztstyle_</p>
+                    <Grid.Column width={1}>
+                    <span style={{fontSize:30}}>❝</span>
+                    </Grid.Column>
+                    <Grid.Column width={8} 
+                      style={{
+                              display: "flex",
+                              justifyContent: "center",
+                              alignItems: "center",
+                      }}>
+                      <p className="left-align h5" style={{color:"black"}}>In the past, I made my product sourcing decisions simply through internet browsing and personal preferences... I love working with whatspopulartoday! They really help elevate my new product sourcing game. They seem to understand what my customers want better than I do!</p>
+                    </Grid.Column>
+                    <Grid.Column width={1}>
+                      <span style={{fontSize:30}}>❞</span>
+                    </Grid.Column>
+                    
+                    <img src={process.env.PUBLIC_URL + '/test_logo2.png'} alt='payment' style={{width:'30%'}}/>
+                    <p className="navheading" style={{fontWeight:'900'}}>@elariaboutique</p>
+                    <Grid.Column width={1}>
+                    <span style={{fontSize:30}}>❝</span>
+                    </Grid.Column>
+                    <Grid.Column width={8} 
+                      style={{
+                              display: "flex",
+                              justifyContent: "center",
+                              alignItems: "center",
+                      }}>
+                      <p className="left-align h5" style={{color:"black"}}>I'd recommend whatspopulartoday to any independent boutique stores or brand owners! There's simply no better place to start your new product sourcing.</p>
+                    </Grid.Column>
+                    <Grid.Column width={1}>
+                      <span style={{fontSize:30}}>❞</span>
+                    </Grid.Column>
+              </Grid.Column>
+              <Grid.Column width={1}/>
+            </Grid>
+          </div>
+
 
             {/*
               <Grid columns={3} style={{marginTop:50}}>
@@ -445,6 +582,7 @@ class Term extends Component {
             </Grid> 
             */}
 
+        {/*
                   <div className="desktop-only">
                     <Grid column={3} >
                       <Grid.Column width={5}/>
@@ -467,6 +605,7 @@ class Term extends Component {
                       <Grid.Column width={1}/>
                     </Grid>
                   </div>
+          */}
 
                   <div className="center" style={{marginTop:10, marginBottom:20}}>
                           {
@@ -483,20 +622,20 @@ class Term extends Component {
                                 style={{
                                   borderRadius: "5px",
                                   letterSpacing: "1.5px",
-                                  marginTop: "0rem",
+                                  marginTop: "1rem",
                                   fontWeight:'bold',
-                                  backgroundColor:'#0c4a34',
+                                  backgroundColor:'#4b3cf0',
                                   color:'white',
-                                  height: '50px',
+                                  height: '80px',
                                   paddingLeft:'16px',
                                   paddingRight:'16px',
-                                  width:'180px',
+                                  width:'250px',
                                   marginRight:'15px'
                                 }}
                                 className="btn waves-effect waves-light hoverable accent-3"
                                 onClick={this.handleSubmitYes}
                             >
-                              <p>YES:Fill a 4-question form</p>
+                              <p><span className="h5 navheading" style={{fontWeight:'900'}}>YES</span><br/>Answer 4 questions in 2 mins</p>
                             </button>
                             </a>:
                             <button
@@ -505,19 +644,19 @@ class Term extends Component {
                                   letterSpacing: "1.5px",
                                   marginTop: "1rem",
                                   fontWeight:'bold',
-                                  backgroundColor:'#0c4a34',
+                                  backgroundColor:'#4b3cf0',
                                   color:'white',
-                                  height: '50px',
+                                  height: '80px',
                                   paddingLeft:'16px',
                                   paddingRight:'16px',
-                                  width:'180px',
+                                  width:'250px',
                                   marginLeft:'15px',
                                   marginRight:'15px'
                                 }}
                                 className="btn waves-effect waves-light hoverable accent-3"
                                 onClick={this.handleSubmit}
                             >
-                              <p>YES:Fill a 4-question form</p>
+                              <p><span className="h5 navheading" style={{fontWeight:'900'}}>YES</span><br/>Answer 4 questions in 2 mins</p>
                             </button>    
                               }
 
@@ -529,23 +668,23 @@ class Term extends Component {
                                   fontWeight:'bold',
                                   backgroundColor:'#989898',
                                   color:'white',
-                                  height: '50px',
+                                  height: '80px',
                                   paddingLeft:'16px',
                                   paddingRight:'16px',
                                   marginLeft:'15px',
                                   marginRight:'15px',
-                                  width:'180px'
+                                  width:'250px'
                                 }}
                                 className="btn waves-effect waves-light hoverable accent-3"
                                 onClick={this.handleSubmit}
                             >
-                              <p>NO:Skip personalization</p>
+                              <p><span className="h5 navheading" style={{fontWeight:'900'}}>NO</span><br/>Find out how much these might cost to source</p>
                             </button>
                       </div>
               <div style={{height:200}}>
               </div>
         </div>
-        </div>
+        
         </>
     )
 

@@ -29,11 +29,11 @@ body {
 }
 
 .highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,0)0%, #E0FFA1 50%);
+  background: linear-gradient(180deg,rgba(255,255,255,0)0%, #FCAE9E 20%);
 }
 
 .highlight2 {
-  background: linear-gradient(180deg,rgba(255,255,255,0)78%, #e9ffef 30%);
+  background: linear-gradient(180deg,rgba(255,255,255,0)0%, #E0FFA1 50%);
 }
 
 .image-box {
@@ -410,7 +410,7 @@ body {
 }
 
 .h5{
-  font-size:25px
+  font-size:20px
 }
 
 .text{
@@ -474,7 +474,7 @@ body {
     height: 45px;
   }
   .h5{
-    font-size:20px
+    font-size:16px
   }
   .text{
     padding-left: 20px;
@@ -550,7 +550,7 @@ body {
     height: 45px;
   }
   .h5{
-    font-size:20px
+    font-size:16px
   }
   .text{
     padding-left: 25px;
@@ -628,7 +628,7 @@ body {
     height: 45px;
   }
   .h5{
-    font-size:18px
+    font-size:14px
   }
   .text{
     padding-left: 10px;
@@ -688,7 +688,7 @@ body {
     height: 45px;
   }
   .h5{
-    font-size:20px
+    font-size:16px
   }
   .text{
     padding-left: 30px;
@@ -789,7 +789,7 @@ body {
     font-size: 17px;
   }
   .h5{
-    font-size:20px
+    font-size:16px
   }
   .text{
     padding-left: 30px;
@@ -835,7 +835,7 @@ body {
     font-size: 19px;
   }
   .h5{
-    font-size:25px
+    font-size:20px
   }
   .text{
     padding-left: 40px;

@@ -332,13 +332,116 @@ class Landing extends Component {
               </Grid.Column>
               <Grid.Column width={3}/>
             </Grid.Row>
-
           </Grid>
         </div>
     </div>
 
+{/*
+    <div className="center" style={{marginTop:0}}>
+      <Grid columns={3}>
+        <Grid.Column width={4}/>
+        <Grid.Column width={8}>
+          <p className="heading h3" style={{color:"black", marginTop:60}}>Do you want more <span className="highlight">personalized</span> style suggestions hand-picked by our stylists? They are tailored to your brand and customers.
+          <br/><span className="highlight" style={{color:'#4b3cf0'}}>And for free!</span></p>
+        </Grid.Column>
+        <Grid.Column width={4}/>
+      </Grid>
 
-      <div style={{backgroundColor:"", paddingTop:'60px', paddingBottom:'60px'}}>
+      <Grid columns={3} style={{backgroundColor:'#FCAE9E', marginTop:30, paddingBottom:50, paddingTop:50}}>
+        <Grid.Column width={2}/>
+        <Grid.Column width={12}>
+          <Grid columns={4}>
+            <Grid.Column width={2}/>
+            <Grid.Column width={3}>
+              <p className="heading" style={{color:'#4b3cf0', fontSize:70}}>40%</p>
+            </Grid.Column>
+            <Grid.Column width={9}
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                    }}>
+              <p className="left-align h5" style={{color:"black", marginTop:0}}>Latest Study found that additional market intelligence data alongside online sellers' own storefront data helps them choose better products to sell, which leads to 40% growth in sales.</p>
+            </Grid.Column>
+            <Grid.Column width={2}/>
+          </Grid>
+
+          <Grid columns={4}>
+            <Grid.Column width={2}/>
+            <Grid.Column width={3}>
+              <p className="heading" style={{color:'#4b3cf0', fontSize:70}}>1k+</p>
+            </Grid.Column>
+            <Grid.Column width={9}
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                    }}>
+              <p className="left-align h5" style={{color:"black", marginTop:0}}>Fashion brands leverage our service when making sourcing decisions, effectively improving new product launch performance. 95% of users come back at least once. </p>
+            </Grid.Column>
+            <Grid.Column width={2}/>
+          </Grid>
+        </Grid.Column>
+        <Grid.Column width={2}/>
+      </Grid>
+
+      <Grid columns={3} style={{marginTop:30, paddingBottom:50, paddingTop:50}}>
+        <Grid.Column width={2}/>
+        <Grid.Column width={12} >
+          <Grid columns={6}>
+            <Grid.Column width={2}/>
+            <Grid.Column width={3}>
+              <img src={process.env.PUBLIC_URL + '/test_logo1.png'} alt='payment' style={{width:'30%'}}/>
+              <p className="navheading" style={{fontWeight:'900'}}>@_ztstyle_</p>
+            </Grid.Column>
+            <Grid.Column width={1}>
+              <span style={{fontSize:30}}>❝</span>
+            </Grid.Column>
+            <Grid.Column width={8} 
+              style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+              }}>
+              <p className="left-align h5" style={{color:"black"}}>In the past, I made my product sourcing decisions simply through internet browsing and personal preferences... I love working with whatspopulartoday! They really help elevate my new product sourcing game. They seem to understand what my customers want better than I do!</p>
+            </Grid.Column>
+            <Grid.Column width={1}>
+              <span style={{fontSize:30}}>❞</span>
+            </Grid.Column>
+            <Grid.Column width={1}/>
+          </Grid>
+
+          <Grid columns={4}>
+            <Grid.Column width={2}/>
+            <Grid.Column width={3}>
+              <img src={process.env.PUBLIC_URL + '/test_logo2.png'} alt='payment' style={{width:'30%'}}/>
+              <p className="navheading" style={{fontWeight:'900'}}>@elariaboutique</p>
+            </Grid.Column>
+            <Grid.Column width={1}>
+              <span style={{fontSize:30}}>❝</span>
+            </Grid.Column>
+            <Grid.Column width={8}
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+            }}>
+              <p className="left-align h5" style={{color:"black", marginTop:30}}>I'd recommend whatspopulartoday to any independent boutique stores or brand owners! There's simply no better place to start your new product sourcing.</p>
+            </Grid.Column>
+            <Grid.Column width={1}>
+              <span style={{fontSize:30}}>❞</span>
+            </Grid.Column>
+            <Grid.Column width={1}/>
+          </Grid>
+        </Grid.Column>
+        <Grid.Column width={2}/>
+      </Grid>
+
+    </div>
+          */}
+ 
+
+      <div style={{backgroundColor:"", paddingTop:'60px', paddingBottom:'60px', marginTop:50}}>
           <div className="container" >
             <Grid>
               <Grid.Row>
